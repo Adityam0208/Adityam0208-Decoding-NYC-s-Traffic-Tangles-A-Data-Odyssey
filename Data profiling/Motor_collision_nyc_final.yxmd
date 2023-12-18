@@ -1,0 +1,1013 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>3000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_TYPE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_INJURY" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_AGE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EJECTION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="EMOTIONAL_STATUS" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="BODILY_INJURY" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="POSITION_IN_VEHICLE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="SAFETY_EQUIPMENT" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_LOCATION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ACTION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="COMPLAINT" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PED_ROLE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+            <Field name="PERSON_SEX" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="186" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="UNIQUE_ID" selected="True" />
+            <SelectField field="COLLISION_ID" selected="True" />
+            <SelectField field="CRASH_DATE" selected="True" />
+            <SelectField field="CRASH_TIME" selected="True" />
+            <SelectField field="PERSON_ID" selected="True" />
+            <SelectField field="PERSON_TYPE" selected="True" />
+            <SelectField field="PERSON_INJURY" selected="True" />
+            <SelectField field="VEHICLE_ID" selected="True" />
+            <SelectField field="PERSON_AGE" selected="True" />
+            <SelectField field="EJECTION" selected="True" />
+            <SelectField field="EMOTIONAL_STATUS" selected="True" />
+            <SelectField field="BODILY_INJURY" selected="True" />
+            <SelectField field="POSITION_IN_VEHICLE" selected="True" />
+            <SelectField field="SAFETY_EQUIPMENT" selected="True" />
+            <SelectField field="PED_LOCATION" selected="True" />
+            <SelectField field="PED_ACTION" selected="True" />
+            <SelectField field="COMPLAINT" selected="True" />
+            <SelectField field="PED_ROLE" selected="True" />
+            <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+            <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+            <SelectField field="PERSON_SEX" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="402" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,PERSON_ID=True,PERSON_TYPE=True,PERSON_INJURY=True,VEHICLE_ID=True,PERSON_AGE=True,EJECTION=True,EMOTIONAL_STATUS=True,BODILY_INJURY=True,POSITION_IN_VEHICLE=True,SAFETY_EQUIPMENT=True,PED_LOCATION=True,PED_ACTION=True,COMPLAINT=True,PED_ROLE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True,PERSON_SEX=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_28976_624a8321e1d1f94fb5f5ff5639345a7f_\Engine_28976_4e1c9f9cf681ce4b859f8cc1ecfe84cd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_28976_624a8321e1d1f94fb5f5ff5639345a7f_\Engine_28976_a844ce6b7fe01f4db1520b6210f863f2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_28976_624a8321e1d1f94fb5f5ff5639345a7f_\Engine_28976_3cd3827831895249aa25fef5cad09735~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="426" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_28976_624a8321e1d1f94fb5f5ff5639345a7f_\Engine_28976_21b50f3130414242b506f6fa7aa2cea1~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="UNIQUE_ID" selected="True" />
+            <Field field="COLLISION_ID" selected="True" />
+            <Field field="CRASH_DATE" selected="True" />
+            <Field field="CRASH_TIME" selected="True" />
+            <Field field="PERSON_ID" selected="True" />
+            <Field field="PERSON_TYPE" selected="True" />
+            <Field field="PERSON_INJURY" selected="True" />
+            <Field field="VEHICLE_ID" selected="True" />
+            <Field field="PERSON_AGE" selected="True" />
+            <Field field="EJECTION" selected="True" />
+            <Field field="EMOTIONAL_STATUS" selected="True" />
+            <Field field="BODILY_INJURY" selected="True" />
+            <Field field="POSITION_IN_VEHICLE" selected="True" />
+            <Field field="SAFETY_EQUIPMENT" selected="True" />
+            <Field field="PED_LOCATION" selected="True" />
+            <Field field="PED_ACTION" selected="True" />
+            <Field field="COMPLAINT" selected="True" />
+            <Field field="PED_ROLE" selected="True" />
+            <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+            <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+            <Field field="PERSON_SEX" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+            <Field name="COLLISION_ID" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+            <Field name="CRASH_DATE" size="10" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+            <Field name="CRASH_TIME" size="5" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+            <Field name="PERSON_ID" size="36" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PERSON_TYPE" size="15" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PERSON_INJURY" size="11" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+            <Field name="VEHICLE_ID" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+            <Field name="PERSON_AGE" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int16" />
+            <Field name="EJECTION" size="17" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="EMOTIONAL_STATUS" size="14" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="BODILY_INJURY" size="20" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="POSITION_IN_VEHICLE" size="86" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="SAFETY_EQUIPMENT" size="40" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PED_LOCATION" size="57" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PED_ACTION" size="47" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="COMPLAINT" size="34" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PED_ROLE" size="15" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+            <Field name="PERSON_SEX" size="1" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="53" y="569" width="697" height="541" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 35</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="78" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>3000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Vehicles.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="221" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" />
+                <SelectField field="COLLISION_ID" selected="True" />
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="CRASH_TIME" selected="True" />
+                <SelectField field="VEHICLE_ID" selected="True" />
+                <SelectField field="STATE_REGISTRATION" selected="True" />
+                <SelectField field="VEHICLE_TYPE" selected="True" />
+                <SelectField field="VEHICLE_MAKE" selected="True" />
+                <SelectField field="VEHICLE_MODEL" selected="True" />
+                <SelectField field="VEHICLE_YEAR" selected="True" />
+                <SelectField field="TRAVEL_DIRECTION" selected="True" />
+                <SelectField field="VEHICLE_OCCUPANTS" selected="True" />
+                <SelectField field="DRIVER_SEX" selected="True" />
+                <SelectField field="DRIVER_LICENSE_STATUS" selected="True" />
+                <SelectField field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <SelectField field="PRE_CRASH" selected="True" />
+                <SelectField field="POINT_OF_IMPACT" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_1" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_2" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_3" selected="True" />
+                <SelectField field="PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <SelectField field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings>
+            <Position x="486" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,VEHICLE_ID=True,STATE_REGISTRATION=True,VEHICLE_TYPE=True,VEHICLE_MAKE=True,VEHICLE_MODEL=True,VEHICLE_YEAR=True,TRAVEL_DIRECTION=True,VEHICLE_OCCUPANTS=True,DRIVER_SEX=True,DRIVER_LICENSE_STATUS=True,DRIVER_LICENSE_JURISDICTION=True,PRE_CRASH=True,POINT_OF_IMPACT=True,VEHICLE_DAMAGE=True,VEHICLE_DAMAGE_1=True,VEHICLE_DAMAGE_2=True,VEHICLE_DAMAGE_3=True,PUBLIC_PROPERTY_DAMAGE=True,PUBLIC_PROPERTY_DAMAGE_TYPE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="522" y="762" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="582" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_33036_8f0a7b957ad74d41b3b09cf5db87972f_\Engine_33036_4d1b413dbc0eaf409b319341f1dfb0de~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="642" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_33036_8f0a7b957ad74d41b3b09cf5db87972f_\Engine_33036_a9446236e92fbf4b8e8dd4e9094ab8b0~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="594" y="702" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_33036_8f0a7b957ad74d41b3b09cf5db87972f_\Engine_33036_413edab5077f8e4f8c8b2bf16a1dde8f~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\18576\AppData\Local\Temp\Engine_33036_8f0a7b957ad74d41b3b09cf5db87972f_\Engine_33036_8a9829f25d896e41b9b2a4c9da169d92~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="big_query_input_v3.0.0">
+            <Position x="101" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <authType>ServicePrincipal</authType>
+              <driveCheckbox>False</driveCheckbox>
+              <storageCheckbox>False</storageCheckbox>
+              <bigtableCheckbox>False</bigtableCheckbox>
+              <clientId>
+              </clientId>
+              <selectedId>norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions</selectedId>
+              <treeState>{"nodes":{"norse-voice-382413":{"loading":false,"expanded":true},"norse-voice-382413:NYPD_MV_COLLISIONS":{"loading":false,"expanded":true},"norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions":{"focused":true,"selected":true}},"focused":"norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions","selected":"norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions"}</treeState>
+              <treeData>[{"cloud_id":"norse-voice-382413","cloud_type":"PROJECT","name":"DAMG7370Project","id":"norse-voice-382413","idx":0,"children":[{"cloud_id":"norse-voice-382413:NYPD_MV_COLLISIONS","cloud_type":"DATASET","name":"NYPD_MV_COLLISIONS","id":"norse-voice-382413:NYPD_MV_COLLISIONS","idx":"00","children":[{"cloud_id":"norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions","cloud_type":"TABLE","name":"nypd_mv_collisions","id":"norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions","idx":"00"}]},{"cloud_id":"norse-voice-382413:damg7370_demo","cloud_type":"DATASET","name":"damg7370_demo","id":"norse-voice-382413:damg7370_demo","idx":"01","children":null}]}]</treeData>
+              <inputRecordLimit>100</inputRecordLimit>
+              <shouldLimitRecords>False</shouldLimitRecords>
+              <usingCustomFilter>False</usingCustomFilter>
+              <inputCustomFilter>
+              </inputCustomFilter>
+              <customFilterProjectId>
+              </customFilterProjectId>
+              <sqlType>STANDARD_SQL</sqlType>
+              <maxFieldLength>100000</maxFieldLength>
+              <preSqlQuery>Empty</preSqlQuery>
+              <postSqlQuery>Empty</postSqlQuery>
+              <clientSecret>
+              </clientSecret>
+              <serviceCredsJSONStr>201000000D08C9DDF0115D1118C7A00C04FC297EB0100000079275FDE4CFD094D9B0AEB7CF65831FB04000000080000005000570044000000106600000001000020000000B76FFEC4FC510B819D3F8B8C02A35E2FD339F330741D91FDC940D832ECE4ABAB000000000E80000000020000200000007E2999094E5E2F42878F22122D67E670F59EB758FF7844FAE96061D0BB2B2310C04C000073644E6002B2E68627A91AC32AF61B292E77949DC430C3FE73D33E6A31F18F03AE025F56265CA215B1281E2B2393EF8D99E709E49D4C24E59896802DF9268F8F0808453F91607F805295DF486686D8750D958D95F6DE560E0C353C33D7C2D6A062E16FEBC3E30388CC497CB3EE434495C6ECC7F452EC493D9D20EE8B7D27BA2049909B15753A68A75458A43473AC198DAF34EEEB866DACD09599E777F43C75E8C28C74B9275FBD65552DC384FE14C1CCDF5CFA32FEF3FA02D0701D98606CF26F3C69A0D7D670259E4A069AB40D8810377766ED76A0F804E3972A263B37A8D939277BD7FE05B7F8578E8D0A6DD014F0E83EC48AA085344284A3F07B30C42715DB2D31301FE497F1192C627AB98725D4DDD84B6596C44B73746762AFE0A0CDC55DD5B4473BDC2969D54923A980C143C1F37DC0CC2D81A1F195A832CD683A1B672F14D62A9775F50D56F677185D5BC6F55FE5C08D3EB95E947102FDE5FA6E058B8737175B8B763444D9AA4FE5BDC2CF7A6E7BECB79294CB6B6FDBDCC85287770F6A219851A8EAA6D343C5099DA5C9D5E0EAF3C6F983E1D14608B99CDD0E93A65742422A242B1C8D300AA33CEAB448C945D271889ABE6E6B15C0AD4BD547005A1E1D08DCCBAC415B1C2A3D9D01994E897DB2950BDF969E354142452C053374D5B406C971D4FBBF3867B554765B1A04A5CC2458647A0CEB4BAE2F132DF59C929F5C3F193232C56435B7DA5DE3B789D23926239BD7037CD1204A3DA0B7B16F10C9C9ADF3A86C6A1919B45DAB48804BE3FD2C55F2D130A0BC180D30869F399AB74E548DBB30D850083B85AF2C64239F399D7F48F3464EE551E75A1065ED5ABF5F9FD490CD81AEE4995066DC8C3AE3B041581519707AB9D5F844BA1BA8F7399B3D3ABC54B4F7005488221E78A12D41D606F7B0F735DC2D2EF7796ACAD4480FCEBE867F7C4192254915617F1B944E00613DF6FCDD07984F38BDA4E144CFA1E04FE40595FC7951483876C3504E68AD354422D2084C14857D6D7A32DD74BEEEB3CD55E60DF68449F510158A498BE76BC0D5105E984FE47ECBF7B74235E3894F99998FB12BBF1888BC2F15F3E443268AB41E07FFDB4E6DEBF76C126D6D009324AE3B49599624ED98838E6FE23087F76958DF9AAAD02FF19F6CCF5A6E5DD62BB0D1CF1022958C8CD01A5DE9198A2A6103DC43FFF2B37CEE85248A44EEE5653E2E20E83CC3409C65D8476FFCC6D8E36742852D960CA76976E17CC2AF59F3F4714276AEA7EE4CCBEA84269D0522D9EA0E2ABAC3D310837C6A3087D89239E6C3666CEE9FB1DEB90AADCC05B631A488DB7B6970B263C3E9A2430031CE491B300EF11CBFE1149316F03B52BE064A20B7595CDEF81580CE2F4CE20D0E5395A91F864D40416470B7DCA83AA5082F9945CBDE0D17BFC4AA319B524B40A5F344862302F4DA3D1BED76B392E620003A7DE2115CE2CAC8AC56DAAC77EEC53090C339ED48E8FCFEDA13120969E27A623FA37185411A4A9456FE30C30637FC5BC22E18BD798EB8E8A63466925B7235A90CC9A7E3B976669EFC65FBCB64589A5AC29E68B4704B2C2A9D020DEE62AFE3513A8A443D7BF7E566754B512DEA11497043D273C63E6AAEC2D048B4637CB60BA7F2A4E3329A27AE25EE154679EDBE9451151B675A91FCD7FECFD7700CBA011EB5974102F63E7E88E8008FFBD3BCF240D6F10D6FBCE5E94F9DD7684B2A7CB130B62E5D4B2E633F633BDA2CD56AAE78E229CBDCB53358F2DB72F6B32A3AB0956E191B4B833E975E34EFDB0F4DCB2115BA156340E73083AAF958F26077FC512B667AD304993B3C0A62422FFDADC86AD2F02886852F370F9699B6F3861A53E5FB13B3981ADB545D3A48D06E8C9DF200D6AECEBD42AE0B95FB0344EF71C3F3E0AB77673E5B2E37B2D42C52055E7EA2A2F7DB0C801F114421B50E21D40DC44FC8E51107ED7458712371542822424995F08DF56D1D879B1F76A68EF94EDF5AECB7C03B813ADC7C13364353D2E0C86F4E9B7B81680EB03F8E8D4A26B4AB5937967C42A60D79D6828D7BEAE4AD0304889CD122A545BA4EA2829A7C0866A9981BEF436FB11469A6F1781ED7AE48199CFBDC22D62397F17910EDC8CDFF25CF0021EB96FFE9C18B78DE0A30C1F002C11B77DC5C790C91E24A32F2634E59D1D57BF5DC4881176132CBEB23CB436A1623BEE97AA08CA5F34659E331651092C822EDB77AAE5FF2997A945B1498059EA5C8B038E22B3F1F668D90769EE870AB55B72AAFC3269CE7F66D7CCD267B65AF03B73ADDE63D2972BA1BA9C7FF0A42EC960672BB80797CF776D24C34208A6F44C4019D584DA4F24A5202BFDE06F738A377A7A4220570F6A01E3E8657B5294705EFE12FCAD24E47B52B94C1B30595FCA5298851A4F044FAAC9EF525C4F2D8FD137B66B8010D4CDF66EDB0A7520F356DD52D2DC8B3A076BE559C24195457B6A38F62186BFA878146B48199464498E2CFD1BD9F46B517CFFA3E5817588E40B94F4542EA5F35A8D52C782982A7E7AD96AD4CD9470AA783EEE7994F30BC36187DE51A43FB0C181E94520782BCFF8A9D09953BD2E2CA7BAAFAF8F427B8759EE3B6E9C80F7DE365067121CF4565B7E722BCE5F407A756B5E0DBDFB21F36DFBC291BD3DB54ACA22D1441BFBCCD5C9A5628D9E54E25FCBD9BEA18617CEF14E2D71CA9337686562EDF8BA339AAF0C84CD5432D6314EF4C775C89B26D7A553CD9663E81A0D0AEFC84884549BBACF7A02B460B17F7E905BAB88A58F1EEC12BBCD61C7F6031D9DAC6F364CE8D0376BD93E71E8A41CC0DF6F2299CD0FAA797E763EEDD99AB9B4B0BF6FD35DC626C33E40072736AE9D303F33DFA9F9F510AACAF0BE7F36DD15E21D341312EC151829EED85F0D640B2F45F35A1FDD6DFFCC6EED0ED90BE951AD5E80B285EBED20F0497B6F029B78B16DCA10AF3DD935FD6997BDB7B576585B1E13A6B89576E2CE1AC4F6FA576583C6E045F07DA0FFDEF4BD2FC77C0BB5D82E7E16FE147862E9CC36BD33482C5E14B5112F9F6DFCE69FB70DFCA60A28BDABC8C789FB74DDCD8821CADEBE2789829D3C6FC5F12B001C46F2D313E6E631D3A4D2D34008FC04A4E4BB41143611B82A42497594ECCFF56B03A6C5F0C4871608472CBEF9802926187C78CA4BCB81940D6C7C261859520675662E974E2F83C5DABEA80AB78BDBD26FE37E54B9698635F21C4F50A6444E4A90BB10B96C0E9A2F4EA7896CFF93B4AA7BB5BF3FE5F4580D77D696C79CF3915B051B439F121D3EF73DDEAC1FC9AA2E138F9B85B9DF5E537965ED3FE0204470657A27DC81B7FB1913C888BD650EF26AA9CDE06C3AAD2F2A86C5974651BD4C11C8D3503E89D3C7BC0C5A04514D958716DC59FF7EB79F43F921E4685539EA10B432C13D263BBCDBC833F90AC4CF65E5D216AE3BFC8685E4ECDE13BACB7813C43343EC579532CBD4F7E3E6AF6C7032EA9F3393E60CD7E9D3041539CD32F5D120200FB315273DF826DD1E4CA9257731F4CCD63BD2683905074AB23639241CE2C627E4964F544846234D5D48425F1FB7C1FC69D373521FA089235C19BFF5B076287BC21601F31CF8D9FD7136C3A0A47BB53DE91974E1837F240168762A7F0398047C55203B058816A4BC7722139E9A9BA02296DAFFED536F10AFDE735A0A57424B389C95FCD0A5946CF09B3029037AD198B5AAAC5FB98E1C513AE5A53699B81AD7A487A37BBAFE3784CC6747C36D7D350727C4AB64AAF20285B7F5E901E44C4F05358F80EE1C12DEBD5DE660CE6DCBAD9B66AF87C1B661A0E8B6BEBC691A2A2068569A00ACCDEA63B6BD88B41C840F4DE4AEB680F6EDE9EAB1F288BA8FDB2C70B3B6F538F4F8EE7C7FF091718B58F1A0E69BC4E11F2933E07EDE5E64FA7B0352BF7A9CDC7195DBB0D4F4AD7BA131B98459434A5F8552C90D1F1FF2750816AB9D8A57154F498C08825C62FB65FE764B2CAFA42CBF22EB4C549BD057AE82886EF272F2C4FE0FE246BB55BCAB3B4A3E63FBD267A88AC3D402EE435A2B39CDA9006D2446779011B30F9FF191E4CDE90021BE29D91696E0AA5045C63CAA48B5C79955FFC8A5D25F7FFC3E10F71FD077B56E3FBBA9B649FA50845B043CBB4C417BAC6CBF1625E9B1B6889C8C30C6B6AE1585C418D7745C6686CBB9B8EBC1BF828E04CCE5629DC1B3458E4B853F37EA8404CC403083FC50481BCA52FA76E6D92B57525E647DAC9BBF89B9B5B58DA3C4577F414BF144230CBD6BB39A4F385A037FA40B740D8F2209C254813FCFC9C686DC7E4DC592E789069BBA76117C53DF635A4113EF6C58A7B0E6CB45F224978582D18F190BEDC9392BE045556ED68C1CF4435E8CE6F2CF15DDBB30CB8BE4CE2F2D41FE20AA314A54149493FDC2B30F5F9A0F9268DFC0EBE17A5A569609B3239DA6DD15C8FECB5C7DC113F3EA080993A412C40C21BCC203029FA48D425C9CD70F51E1357B3A4452370381B66FF3550E1D4B55D49D41348C7B1EB831740C92D639E36F1E03904A79F5EA8A3A64DA838AE0DB9E94BEDABF8C95C8FB545A140CEE7130D0C6A153D27F6EBD34ADB60537299E7AAE8734F5A336AE70C3E35E95189C91DEA38BAB1CDD7E8237BD2708CB83D996B7D8BA82B989BB86C2AFDD3DCD51036821328F464A7C3379FC93A113ECFDF3E8CD26EACC0728FAD653361C96B4CA82BBC9F8CDFD744E74219F03367CB801CACBE02EC064A608C7011FD925584A2C1774BA403167C029F81E9847F7CDFA77780DFA15E1652BC1CF5CE4ABDC99E240CB37C09298B01410F2B5A996240E05514BFE9C08D05DABF1D47C4CE1FE25E0B5D30CEECE739F0AC20AE6980870292840E984A1A0C1D5A9E99BBA7B8EDBF408A62E61F111D2FF1518929C455A6ABE5F283D95DAFA248F50AAD8C881D7401DE32D60544917B86CA976FEC3A6A4097EE8CDBA0E263512A027AFB78882299E01FAE1887FCA80CEEC9AFD28E5B37D792D0A1D191254075D4B9477EA8049E847E9019766C6BDF4A516F4D13E78D90A6BC6A642D6F18490ECDDFFC23CE491D71EC5E657C9039BAD6BBC3511AFA5CEC99D9AE720D55E90C2346ECC138819EC1BDED57D0B8090D7E16910BAF887159B1A4487DDE458E5E7F402E4CAEDD36B6DD9757A2009D919D663938C139AB6FF4D36AA01EFA6A8EF009F1212814189115B9CC680EE081D9E8B0272E0006F423DD47B873E498B6563C1C589B8A577E5F2C2E2D6C86A861EE0B4662165467E57BAB7240F6DAF7B956C6754A95BE7991A343438D490F6DE5934ACCBA075BA8B99E98D2DC203E86E62641EBFE0799CF281B0BAF01C66ABF973F32FA3EA33B987F9ED17EB19E3CC1D162E343432EA0B8DE8B8FE1EA98E3A39807855646EC01213F158B61DE68E9F7B5ADB52AA1889596ADE6AB2637B4EE918A50E98E2B432B45E5A827A088CBA7E48856D25581C44C3CE71DEE7A367232FBEF74D5D1C76E3F1031B4DAD3BA964B82AD2A4A900FA1234B8961D24B3B507BFD8CC22624873450A8D4A8ECEC88862BDDC7C5E70470D1DBD8FC5EC037EC70F1062EC7C83F615161BAB4BEE141F5A191D4BB84911D2A74ADD347D24895A6A15F39EED030ED55E08723465374B8D9C0DA6B221F13F31DFA8FD37DAF52C573160B1FB68573C34D080A7E2338207F856BB70577A6CB09D44665A0556579063FD4EAB90EC2618664122C1DC096039035139365B7CD29292363B5138A3D2065FF979506BD1D8B3BA243332CBB877AA4870A315385CB11BEA6A5D18A05B269543D46FCC49F1A64329D828509FDDFEA9C91CE5419F206FCC58CFE66796D6271859A12C6B6137D8EC914D2CF737C402FAF185A73A5210581E3E42129A00513688C7FC02364BBEFFC1F3538066DA24393CCD818D247426E8D9C25126D53991AFA28B27C9FA17940DD9E43338150987F88D213FC0D8D17CA6E43808E793A1FED50BB88670005804DB141CD21F3A8AC6CAC9DAB1C75C8693683D734AD8B0AA295452C2A96FC73B2F39F9865EFFDF4837248EFCA9869C9A8D70B9ECF7849387AE1CEEAE9AC83041BF588C2DD3722D34A1012C1E8DE245E902034D524E74F8404CBCE3DF57C049C3912D7F92E2240A52BF02704AE07A20652FD2C9D8E7923209D11E0CB916AE9CC6059CA86EA147EA14428BB7BADAFE5860B37B4A784591BA82539520916AD10E4D14D0E86822D04A288132E29E2485622311A35FFEFF05895742C82B098DB2949988B113B57D2A7B721AA7F8A728842AC2F061E062171CE7E99F162C24DFC291E2DEAE2F861C9614EC71C39D7972EFA161D344B8A88454F03A4C6C1E2F0A615048BEE322DE790CD1EAEB42DA5BADC4B67D3146A3D84B82CC1A9F7C6A1E94F29125BC9DD6A7E09435EE78649BC096319D7EDFDFCD7E924741FD8D2E83391A582A86C5063B1E4C14B05EDAACC5916D34347EF697D368CD948AEC01F9A08B86816C1588A004D8784B26BE66E1099DF72E48ACACF882B9FCD12FECB8C194E3B53B11E0395C7DC05FCEDC17EBA8007B5A53BF4B5BD83F07BF2902559A3DB52A83118822270C4B08F87AFE59479E08E5C876B80F6B0D403E0F5027CBF22912E7D4DAB6B41468B03EA240CB2F3B9048252D13022C3D1B7C7D7EF90E8A281193F328471DA52D06D711FF8BD826ABB346CC1BD207C63ADF3F79C15512C6ACA133129E3FEAEA89EDBDF2BC46A97A382CD653344223E4526329E1835D7E5701AC6181CB35060392EB73452EE3FB6DBF59277D409FB50E6F9FB4F9577C7769FC288D209960A778347C12348C3B67A458C92AFE08B45A1C693BFDDD952CB3530BBD29C30EE5551035D774255C0F21A8BD720FB91C66BDC94D120DDBAC96FBB480342D26B8EC4D316272DD5BF5BEF71A85D0EA9B42A206E32E44FF0B0F054631129CAD6D5D884319533F69F821E7CDA6912D1A9A43C13316E8353026E3E107B309020F2DF9AABAFB9BB12ED44209E5134DB0B5225A31A0906F4043875EACE1E92F2CF238DE8246AA44D6FD364F726E5299B9E2C95D6C080FED52676150B9B95BF625FC64BE6F3AFFD4B6CEADE64FC5916EE28C378C721AECE79A9D5B72FA4DDFB903574E89BDDEE840A6F59DD861A58EEF68036C959D398E09D97BB82AAEE262A65D97C4C39727D9D76A04DE53DFC0716F5B16ED9797A9839A6701404C57739833A16FCB65B8759FE68AB067A002CBE32283029DC634F6F250F6E51A3FC06D7D939F657A3185543C578129025FC6779FBA4F6357FC74BB849EEF4B13746D1B59C3E4C46ED0BFDC25800A74A789276A964CBADDA76CD7465FABC12B4A34CAA8D379AE3C4CBCE6A096CD6D47C64A00399ECA26F988BC6EEF94BC97B43BCD83BA871F5EEEB79A5E06E18D288D804A0573907F97DDD0B999B5B75966D556B7B5C264195D6DD31B4C266D61A09511991CDF353D7D2BA41871557C83978FF57FAFF1C879625AAB3C99B200BF991AEDC30D7F3DF9EE53ABE708C25659682B570D2BB7E05CABF8F8E2A5F5166768F6A43986093261ABE18FDE99573A4AAC9B797947C5A30CE469FF57C09A68EDE1945128458F444B01C0B50822E3F3DB8898DE1931C9D999F0C5E82129F3678C83CE4809234D90E84B1EE33DC485C50AF1EBB1F3DF8344D14EF35560C3D13AB3E72D64296ED15E23856334448A10B6081A4D4B545E47B22AD3D8A9AF5CD351C4D9BC56625397B8F555A5DC1831F5B790A78CA085DC907C5B02161B34B8CF716A4E39DB8F8596690193AD1C256E9DFAA288357C3C92A5804FF13C32B074DA746888A1B60B55C27DA7668F5FAFC731A24747D9625392706BECE44FADF37BCAB8E228ED62D541FCB139C25A80AB5DFD49378C16F2B74B0F1B1E23657888CA667F8A47E5FDF945BD3ED93FFFEC3E4AD4903657B494B74F42F468BEC1A1C1776365A3A509ECA8FD7EC9185BC1A58E8EC3835A1260BAB343131619915C79020084792EE057E351815BB8B5BF1C1765CDCEA6F7EA98533945E91E65B7BF127DA38C14556A9C7F46AF348FCF882196FB15CE52C08870D8B9F420ECB7E1CFFBC79BB27F10BFF6A2935E78F86C7356EA4F4CE3C60475E50EF52B8F6E4D27555EAE98FDE198B022BB64B71FE3A5AAD52781C2263AD856284D08A432270EE848DFCA13D2FEAC56BB5761362485165D8BF3C03700505FF2A6584641D36F7B63B993DC057256E7351E494CECC59AC524C3272FE9C11D7B1F53003F62099023CFD3DAA8C375BC98F39DBFCB6D7FFB9D30E6503D5E675AAB94BE24EE0AB418203DB64853E01FFBF55D290A55E49D8923A31ADBD0B5E037F00747F1C4259F690D446FEB3605C0A7795C106AC4BBE05F1FB4EE60080FFFBEBACC7EF422EB4FE2FAE5A188E2A58CAA2892EBEE6871E58BEBBCCB0B66CAFD55022C0BCE29C9E61E9A87354D4BBD5B733AD53926E7E3BE94ED1FE745CF19E98C1F4B799C8D26742046E0CE7DBDFEB58DA12495C68FB39091D72D9FB736FA63202CA608DD72CBDAAFE5DD77E270966FB8400C369822C2030AED994A9610D7BE9CAA89AEF553326E48F05A5150CECEE84299F3CF4E6E56227AC00F03C7778F3A1DCBFFAB653D60B45AD627B60088482614AD4E181A4343832E0D769CD554F678B83F76B21FA82FC15A0B5FB856C07532886C12B288D62BBB85C78C4621B3F5AE34C0A8A9FEF5A6A4F0F0DB7FA2AED22D598D8B39CEEC7A9B4A615E3997BF5020478E3C5DF9CC82CFEAF80F2B170579454128C098574506A769459709591018D6246834C5F990261CA4AB2C131C79F079E88FA601C7F2787D645B1C24AFFE5C6F0D3F1BCCDA934E88A31C4BDBD29168ED8589E1695A8A0069D4E8F7402C1450DB2DF588D80D080EA167C89217063C26E5066BE70A53ABAFFBC875F5EC901FD9B1F8EBC26FF38D251414B9A385A87BE735887FBA56C9041F8A93D6C51C8C4A2C4C0C4D4613E66B36B7D7BD2EE9D615670D82E542012D3A97A0A69BF1D28151F8272B67608C0D94914742B163E6E38EA3D34BFB2AC823C3661C2BC046C4848C289D9C768C36576A4880EB4A0B83AC3D0CF52BB32004C2506C232349B05504A8ACDB067D3CB45158DD06C185C725938FEF532E3B00A30BA18A316BEEEDF7EA7913A9422B258BA185C3E22F1CC5F1B4CAE441619727583B52C3D4063DEBD24B7705F2DBC34C7198A3747E5E255D4FC76EFA18BF3EFEB36243BDD0E3AA0C2BCDE90A96111D9EDA8618B7AA61202E12EC50F62EDD7C29F194459CCE537E33E3AE1A7AE7E41F9994408C37F745598B948799851DE7EBA7B737A09B449FF0936B8C5E8A4D5BF6001EF0FC05B31CD73F189304FFB45603E14F6F66F9676B6A8C81760282660F4760EF4A2982E474961369E10CE50B77FA2A772C9F14829C88F8F5E4FBC991F86BD38E2CAD383412D59C409F3208F70ED723E999D48868F77B4BB69A658278EC70EC0C39FC1EEB8DDEB1F564F3C36AB182568F906AFE747B28EA7FC86B1C087F21D2F007500E5D13719679ADDC0CF75085F8D5C61E3E9F495D193EA2FC3873D73529E2A08C23026CDC87F860DB709C61CCDBB934B25E330BFACD79E4081117CD9910E2CE71148C577CDEF455A9CF67D069C895883132B2C4A9172C0AE019F9C44E52FD11B477B64B03C5E8F497ACE1A81BBC72591774D423598DB0C20236CB23D7C0EDC7D8F78BC159D7A8435DC97DCD1FDB7FBFD09E52A93D306461345414587E77C3ED0EC99FADFBFCA711B69DFBEC4792CFF87E361C37B077C32EED5DBBA0C8C09BB86CA3175CEE34193C85E2F795A4A613CF9527E98F11B4F293F42D5879B67BB469E6DFEDD1959CD39FA730E6B492A7440148CE7F9358B9A76C09FF194014C78A9592A0FBBB09E9E712C2D72FD9669A3535979B019F349CA32C98E2114F8E491AF778C8640DBF7C3F44C3CFB83234BF962BA8D03AF02EEC22C2D856BD781B4692BBC089B34BDEC00E230649C3CDA78B3BE1BE10F52F769AAE81D8187324BB33DFB6C62EE40057035B78B92BF405719CE2378EAE1467B951EFFBD5904D6115D8CD90213D7769D09C3F7C23D7E575B6BB8F1B10E1DEF82F1A926637F2782BB407643AC190FCA406565F6F6C5459C25E3141232A5917E2E2F689ADD1664A9FD25B63918CC93219435DA7F76021D500DA4CAA88F1513349194E555B101DF197D561971D38118F3EFC101E1A58CAC8601DA8E1F8E7B176A7F79D7C8953A87D93DC9359EE4E0CDB84059790A537E3F0302DCA7406177012A0B14C551A7CA8812AC100EA30072F3D40BC26AEB8EC6F11AB577E2318640F8495B943D9CB55B7933D8E0B5632A9002BD579112A530BB0A47F86DC89065A5E85087D409AA9E3152FFED0C44268D359D42859FB7FA71D095690C6A1DC6FCAB993D5A509E1D762F160DD2AEC94E16E60349E3105E69B1F207F2F5BA0DAC89375C3ECE4974143A0622FA0191A223D822D9618E004EBE2BB95A549E5F4F0033EF419641DAB2636269E795283ABAE7942E6EE0B014E564366D40A783C1AA5D2CA32E8F656A0CF54811C0A11497F6D0A9DCFAE579BC326B747E0FB31BC2B922BF45AEF6B937FE9E3880C7BAAEEFAAA82A382F767F6AE53BA17A8E541918A269BA6ACB98B23DFB511F2B3F731528B7B56CFC95A2299466C12716466F232B78CC4369E4E1D9F0404FB09FF756A3DCD7DCF2DD9A2B226F5E4543BA68ADD78A2E2C1C22ACFAF803C4DEC4CDBD9C478DA607112E2957832639465DB269AA64282386160F7A8D4E3700949B61906DA682FAEA7DD52E9686F5B0E16783D58228A5E97EA80CBE4DBA882093BD34269F26C7880AED11AA6CEC6459C17E65C41F3953FFF33D7450FB0334E340D010079723176A4C36AA169777A1A316ACA2489858AE64B6E5A549C930526EBDD7D990CD1459D753C8C6593126E4E1E19CB0564D51D1FB5ACB83D2A46C75E4C32D05422ADACF9D9CD3E01020E194EF86CE311E543447E674F69F9B14126F9C16C335A74E34C0EF34E4D2909B6EFFA43D1E6186C9FCA7CF86303376E2E2E055111DD3DD07145537B44E0427C761BAC324430390AEA75A93F2F56DEB2686AECA0D5515F2C3DDAC4B0E52C39E0249F8588E2055F01D54F5A5D043803081D0E1D33127F75F773C947DD72DA187709A9305E4219F45A88D714FD4AEB60465D20A1EF39076E909E18E8B5E694BCE175117DDAE3EF7063A106C083C9E298E08A890849B019FB931B945636CF5CB2E69241B49E28EC3C89DEC1D3BA1FDA385EFBD872D5DE272B909E38D303C8571921D1030CB09DB2825A2A703144A3803EA631CC80EE9517E4C280963FB426ADA9252A77AAA697306AC400A92BEDC5470F539326E62F0FD4B4F2BD77CCF43BF136B0EE971CA138C22BAE68946FF15FBD0CF92BF39169DC4457039EEA2EA0BF49F1C498A192305CC4AEC73C138182C05716A87D3A6B3409D86768CF1C83C490AEAD6149B1AC9B0E29F7AD0D957117ADC50142311708863B9C8A712B0F55916D6FA3B8D08C9AF447660B0A8986A6C215E4DE91C3E29FD4B282B14FBB5EADD803F731AA45BCB108000740AD9DFBBDCBDF18E21A2F0AB5058A0BDE8FD31A4C9DB82E5D6047BD12657F248A19E1004829A0D6B8CC15BFD0B1DDBB14437EFBEB67F39F1FC1097AF46AC3ADDA481EC642F89DCCA637550D89170DFABDD4782EEAF61944E1DA39C7859139AA865EE190F5BF371D24988E60B6DF1718B83C617722284B3C55C355DD01BD5C16FA0589D64ADB8879C5DB06D3545BF11E351BC7FBEEE9B0CB3B8E5D3E025B88541A896B2297E7BE8C7D2FF913FF16A0B0F92A172D30F9434F6DBD3B57343C20B1DE2A2ADD1805B65D80E537A75ADD4B716B53A8DE146D391003A0168A318BF3F47FB09F12182F7E7CA5A9B039DB9E2753D7B5D847D3B8F345BEBEBB9D4392434B0D076AB13514B9FD88EEB051A178D2E1795D7AE296F6269D2FB5C93005EA94E06204FCED02D83608D2C336E9B56E61BDC682B566422BBE27EBBC73EE8BE39011632A3CB4C6C976F24393947F5C0E0B2BA096748A9D12EFD7DEA57E504FC04931ABF30B4BFFBBE36599A54458E31BD01AFD86CB59BBC36E474BE8786D1A25A4D5BE7FE7898826F366AD6A910A5B58F2CF93D6C571DEE08543026FCA07B2446B7A7E16512136F5206FF2272100B56060CB45765F8354AE3E941A32D39A2C1B19CAE149B25389DFA5BA9D8866CF8D95DBC08A5827B9F2E44600699ECF920050446B8BD5F60A2561277F9F24304CC4DD361B73F9B8444DD65043E43991343E4584F0578B2B747FB39893C44F22A3E261772168EB130418830202B2449DD2D3B42AC4D9D79E7664D0B269843D09398EBB8DCC1A9190F08A6ADAE80AD6212DD48EDE56C9761FDF68C96D122F166E0F43DB317615992F2BFB31CFDA9DB76C7785221AC293F9C110921EF9BC1B88322A3CAD8E547B71C04985D66B97541087CDFA3A709998EC5AA116328E3788233A7FC33789E5E89635BB26309946E1A6AE98CAB7B7F284FCC781E26B69CB601B2F0118E6F2CC2AFA420301C69BF4AB18D0714B6F61338A551757A867CF3BEA4437860B2008FCB02F86D1AA931740EB09A30579C9DA0DF863E23D2297B96A114F4600181889D96E2106240BA223923E74B740770146C7FB126293AA3F9CE3D2B894D8E90D92D4A2AF28BF5E6F88EC47148A6F209779F8239FA1FC473A0D5F3BA4EF726E1EB36BC0B1B6E93E269E2006C036BE021D0B92AA527848C76580C21D1E38CDDFB32F0804577DED6BDBDC95D85B5D0A3215D1F5D7CA576850FD9169902E535054D83F0B50FCB1F73E2063002DB7F716165652546BADDCE2EF1E0CACD933C0E72820B29103AC3EC68AF575FD090B79708B0B127C785B0477602CCE6262354C67C7BD4F0EECF1D47D1750E54EF324BA3171D1825138F69E4749B8CE1FB5FDE762F49DB7E5FA951ABD6018312882F7E06CAB39034C62E1B35F0D0CF18EAEC0D11E062F651A32F71F4D5F5916F14369839A1829F90FCE1EEBC957A19053649CE1E574886896A3AE295877FE2FB912E29690DC60FA5938B565CAC3EC4030A68DC13283B3EE963B1A42079AC13EAFFE7CFB23A7827E337FC136182A5F691DA0440819EF3EE3035A693A860C9C796707E7CE2FD98AA1122DC92E891DC8CCE43414CCC23AC11F3A5A2FA9EFB6689562B93851E72D897C4956CF3EDFA79AFA87D893600816AD353A7647162B82413F3188998D7B868637753C98A35F01B58FA9795BE9F2DB3BDDFC5D8F3488BCB46D7BA2A61162FA98C5746C555B97FB8D600CFFD2D7722B0B04501C36682E7897A78DA7DC9C6E9DAC23B118CAF51F33E0E506FCAC955A89A102110A8DC94FC034E4F1BD4B472877F091B788A8F1FFCE34B231CE23E0EF789BE7348103C2D475CB90C9D0F3EDC40834DF80FAA8D68DEFF2A27E802052AD1D4533735877E6BAFA696C4D8C03A9DB3B4C008223B3048837A856D75153B7A2316515515BFE26E2E409C04C12BFFE27F66EFFF36100BD84F109D396366B3A0F5AE00F7B08D2049DB3E3A1E0DD9BD2A248AE6A7564295A8158423587CC7AED926BB67A10693EE96EC0BD827757D777D6409D4A160243C325F78CAF494E719BB4503E1D2A3FBE913FD566B42C9F0194360C8348ED36CAD4E74415533BAA98526C6A82F2BE2310E1CCFEB889836409C7CE9A1705DE366A93190ABBF65C540AB55519EC57D812032DF96A05B5259C04420CDF62D0415E34C988AA9730506661C1FA4CC8308BB942DF3A72D06C5E05C313726953F94079AAC2C233CE741C3230E6C224F0E7B991CAAC65E66622E843BC9F63C1E0612C4A6539F2CBD8E85D8F0FFC44C8F450065805A72D76858BCBF0163E29781DC2B183B5BDCE30009A7E38545300727680B816E72BA40DCFAA2F16A018DD4A50EE2BE238B142DA57CE62EE5B60B6F66921DE7FDF406B53D659FF0294D7EBFEAF751A2D8F714F9DA8649879DE19993608035ADFAF9941C4C88F6BA7B581B0A31DE231AF48A4433266452BE229AFA1800B1073E111D7DBA45789D865E973FA3DD06EA081459DA7BB5357DA8FA8577661A0E553593E53D96F1A63569DCD103B3445CFCA0BB9E823205E803B45F4DCF4EF7584392D6596E101041A773DFFB077FA61C8F92F4FB1CB556D9F3134E71E3445548EF9C8387B71D4D38DB54B8D22ED08D0F746A3CBF2881179C1D66DCBEAF9B160497BE3B21D76F8916C01764BE2B1670F10256D7A215EC911E4B208085F4031228167D70B5715A087A0B4F3D22FB397ACCD099DBFBCBDA76B43618D1D9B19280DEBF26F25A906B8608D5682EE7AA715A4996BABC0D9BB5B7A09F3A8B0D8AAF5972A9935A17AD3117393F620CC83954299208F9FC4D643853261A6B6AFAC126703492FC2F5600E82D7CA5994108C439AFCD6E2F7BFEAFE95C2EC77E97AE51FFE3F48565C1BB7F24E5158B64A3BAE7DE2612F5C13F5DF2A0E8241217CA62178BD00EE3CC7EB3F42ABEEC7CD059E787FD99AFD4E7DC138C1C1CFDA0193FA7B1F8B008AD6B93BA22471389E01929640B14F433230B04BE1BB40F7A88AF07488968A2C9A54184414AE7E12814698C448613E4DCD59A4D3D681129B7D0B6F0EF388378E7601137E573F7D6DDEB6665508EEB464EF66DBCE333E88CAD2E27FCE40E7EDEE3C8BE04BE284106069291125CDC591AAC504D32BB3F0E3236606A627EDDDF14DAE491F85330E83C170EC3C9F6E4099F8E46235FE3D406C8C2364BD22C9BC1843B94AA04FCEA2A3458656DFDCA51BB203CA6595F9989A58CD30F8B4DD3233D468F130AF6A1BE861893E4C2F631C9B7F950B26EF29CF55A657EB72D420F8E0657692FC7B945741F58A8D19948E94FC90EFBA50037C134A0BC31FA392AD308320FD73D503D13C7F471F8D636DE8D1C37DEAEFF0FB71EC688A09A9D3DD140627A654DE1E241AF8EF5BD73D4A210DA2A3D2FBFAEF44E89E1AFAB8247E75E6FEDEDDFBA8CDFB81893C17BDDBE086E8D19760CAAFA2E69D2123A89AB62DB950E5551C4005366E4DC4D8EF26242B077C11AED1247146C7C76E2CC4D51575C49AD43965BFE9CB7583914E2D7E8269F22542B6A60A6311AC559F84A21D318C7A59523669CE6B214BB55B706C669588F1856BC0F0030FD7F14E3247D814EFE6D18F2FDB2DE90198287D25F8C654127076E87C8585F7AA40DA2C79B0F19D3ED9A3DBD2B27CF40942988BE0A6E113F3053A0398581E34647035FA442CA3E4C75AF3BF195250D8CE6FF39B25C0F606ECD3B90BD10270B2A44AD9A0EC04405087D81BB1C816198711665B70E485C0A03D7771FA9092334FE0BFB0CFB836D838E4AD9522C8EEDE7B159FC3CDDD3254F9C84F35E4AB93AF729304C24197C78D4EC00E096A72477F7E8461209369983AE79992DCAF2CDAA59E2190D3AD4D354C714D7EF0085B07E921EB2891FA93DF67BC7212C3E373D36C7101FCF767A01B16F684C87106578B4925FB3FC83770359991F67D618F840E65AF2C985FDBBED553214B700419F0D84EA202F8F552978A38C906E1A0321FB3FE75ECC3BC5E153CF7ED42A60433C5E16BC902B77DA132B41E72D8C0B1543DBFD96CC493BD6D58FC31016ED32B8133E0B4EBFE804FB3D42BA70E6E4D35652D693A7C3887895EB9E60BC8FBFDA55CEBA9DC1CF71EA871291BA7742AF0FF548B63802CF7EB9294A8A7AF45CFF2C875E3A3C8AEFDDE338E613531DD4F757E8471A48773007FC2A4587A056578041AD850ADC580856EE078739C43C861C720A7CEC2C14D3E18AEA0167BF5C628737619542DAE327A8B5597EBFE7EA99F5DEAC43396CF01CF81EF45ED8AF2C04F3E94301D8FFEFAE37E90A7F13B3C0B66628DECC6F9EF20273EBCB3EBEF9A0EA630414A6AC7E76B323F4652209C50D40C0FEC271ADCBE954CC4CAFF44C34E409211A40814F63A52356BE852486A051AFB921BF46898C29D8FA610A6C8F260B342A139350187AE35FFDEF9591DF233E2DE7DABCD2811B4F9C3BA201CA5A3E4D9551450A6B387F9325E68BA66DC4161617198128ED064A2AC7C0FCBA47D55BAD87C0B216C9B7C65FE4C6FDA8F230375B4C03EC8CA57CE2A95B631990F7D71CC6FBA836044AF2AEF46703CD342844D031BD263A5E90D773C7C5AC22BC50BCDAB9ED6A2E61F259453509657FF01EF11FC43C0E097B331DDB734C30993D65506DC77A2F0167A02657FD58F8F38AE607425985E7B157A4B0EC3563C1622B48CE747024FE1C97AECBF877D1D0A7FC2403ED850588E8FC2A8BD595EF8A38F8E3DCD31599B80BDCD95A68346F28E44B9DE80289122575726E9865B09816260C2093925F876409005E28EC20CDBCE9F7FE7F7867F7DBE43F70030192EB6F40F9399C9BDF53655F34995500A399A9F565AC5F9F518B9977B46BA885F4075B985FE65098DBFC75EC08E46F5DEB3DF7C8799C170A6AD22054BF9D2EDBE8DFA88E20F295F759FA0FEC119B846F6D88B703EB629A79B707AD4CFE76BED6F6BCFAF83EEDE99EBDC554BF4274D46F277A6ECE46FB1BB2EBD563D8CD6C34E9B0DBD4D57E56D2371D99C06684340316252840FA95AD867FB4ABD959B5500E6DAE08270E0BF78CA115CAE5F98243DEE0335A880258AAA79135C19A3851E4EB2D3CA15076A89EEC5177823D719907902D6E883A578CD4CB93E5D8B655A17404F71C1B37341D373991948C55D2AD0A2F28485D976A79EB5D2B1F152CEB7A22FD6CD5249B860B933FBC458F7A8E496E3196D3A0BB2B5AFF91BADE4187064718823C4FD23DB1E4AB5C261CE1C4A9C68C7FA570847A837E365874E2B74F7275B8E00E35FCCF1903ED950C88A52626C287797DD5104C1771FE50EB8B445C7FE5FB829A7091628A75FA0768094A3AF56B0B3DAF76CA29BA9FE5618654474F4FDE67F078106691D5C2A12D350613506BFDCD454039F70B6071DA621819A8832E4863FA8C62A5894612339ABE870F9E117CEA99945D23D45A6AEB4FDE3369BB09B7BA61AFF8A5DFA051CC60CA2342F34FF8EAFD5E9C30F7CBDCCF54DA3F7018829A02DDA970487E70248C16568899C9D02D9368E5D54084424E1AC6E69AD3829F7F32628A7A09E524E143046E912ADB13B36923B8254ACC3D7AD29CEDCAE02ABD9E1D351A5C0AC44FDAA9EB5DDB60CD84644B89727C76016F85A6B554EB297578FF71E07FB6D9A6C45094F4C010A7FD6AA61E86B2A827187329456E8E7A276ED03A1A11709E365CE232CE17E2C1D8C6B707E8D810654F4714B05A7D2031C2E17CA8D48B7C853D9502283C77CB94D627BBC77725DBFBEA12C64CE985D2DD365B1C210416941A7C6BF15647BDA0DBBF4F231AB2F1EFE45782F629104DD6C3B33DE29DB95E3F9B97A4B3E3FE94BA4775048EA3456D6BFB72A4A7DD05578B16EF47A8ACB9950F095628B9782C849FB47238AE68421E4C11D3E22EA2D4ED57B601AD099574ABB8BD8F218EBB61C120C4B247B76D94B5BA59DBBF75BF8605DDCBC9225B06A036FCA0C065C5316ADD29D83B672763DA23F83E6DB17DD791FEF7531D4E8338821A539C4B634B5B063B9A76E8D20B4923856222B13A390978596A4C35BD5C67681521A5D4CAC94E9A7DDEF067DBB4794A9EF52C1CDB2E7D053BC025FA2BA5680D4C5FAB15753ED6DCB830BF41B3E4C5475C8FBE2FB1EBE92FA7BCE49F3FEDEFFD4A59854F781D9BE3D64CD0C88F036C9F1C0389B9283F6736DF011670CFBD8295766887A7325B026C52772030F8A9BA832F0D3E5FAD5629C51A2E0588A1C90099E27B816273E82B9B0FC69D3421202629D0952EA3EE2B6CA5E586DD7B10409710950286F57B2D287C7662E3F90A43E5724301A4266B65A02A696B9C3A5DA6B392D414BA9A884AEF43054E800F555EEEE7F9DF9E486F0F68FCCB42A41BCFD5FB455AFB99DC8B711B1647EC5119BCCED00CD4E5357297FE7A634B55BFE1D50841651ECC73C1740F745EF569B087E4A0BB50630E329D775D4AFEBCF9267A7ECEAFBE2C46A9A9B83ED9DF22876FA25219127EFFDB5B252B411E801D88FAE9EAF5A968316F866E5998E72C1180CD79F5EE0A9D418993C744A8B1415781013B74907F21999480E8BAA4D2B0DB0BD8F6E6C739CA98C77A37BEA0AA047DCD6EB628CBA753A4C6EDCA72586C5A47F456CA51744535CABF90A9EBFF2F91D6338E5DE94A9903E926FB9A6C1DF9AB04CBEE357DA4057E12499AC356B347F71CD76E495B7C218DC43D96B2F3EFD7A5BAD1A25E0065BF44F22E0C62FEECA5A944BAF050D9159924FA0AEDFFB65FF513B038A987CBB28C2AA234F4B3826368C44E9A50D1DF0D56E1182530941812ABD7F632993D1E1D3C2F27A63291A43386960CCFED26A78F69700D6FEFA5D9C4770F9A4171242BFE68FAC3EBA10D92FFB4E71F8014BDDD72004CCF5B6AB3D68B258639BDAD1E6DB41BD451F7199B854A560027C7A7EBF5E41E2FD7B9E798A49ED6208D886A01844609E87E73A7A875E46CB25581719C34D35865C9308194CFA2B991C37A7AF2C362D951577EFDD581A8462A04305A5A5B968515497D23282934A04C1FF005341FF5E8D7C22BF98CB1895590FEE4EF66127B212D176ACEF9DAD7A659177B72D3A4E0C115261B4CF6E687737C6F67780BFCC8237C884952390E81DAC3CE85DC1FFA41112A680FC7AC85D0B4054752BAE8EF0317D14E238F306803553AD6686064BFC33DBF8617B372E995F82FD41CFF2A437C7F5C5A3E6A44D2C0E5C2FE95821C91AE77CBDF35B1930C3530B4FCB5587C8DADB8CE0E0A0B5ED89D7E028FCE0A16DCB8C1D487BAB9D5F91EFF5EC2B061E0909A19C286B564C945757303A22A0F20F20DDDD3415032C1311BE61844241C302D9F4A0894868C596992DF1FC3FAE4227B226BA56948AFD85CEFA49059F6AAB1036FBB803106D23409FE04713AF68FC2089041518ACBED448FC140F5B4DB4CF30F9DE7B836866EF8E6AF077C2867EE3D2E22C3F8182CAB6B4FB5CDD89A00C235C89770E097D30CBFEC24153989E67BBB7A7C9C5A0450A5CD7B53E3A5FFA7C8C0233B9AAA5C0DC74CED52028C58D5C580EFD99539CF97E5582E9BD857F62FB3A13B4CC1A07783F1D02D6542ADF746B7D957BDCD453DA02189AB6032E7BB7D8D71B1A5020B270D99D5EA2CAFF7A60B70B10638F53F9B0632137253C5DFF5E078388BAC3B97965E10C0B2F7DE4A988E174D616A9D8044DB46B0E7CC4939F6004D3C0C08D33BB0503BB7001589269D3EBB44F3901474775CCA976B4AFE5695DC848142249B827E2E5B66619CE5130B58A5347B5F017B20962E6EC2367A7FBC0344DF1420480F2BFA41927F23B6C7E158547C10020C96A086C1D8B0DEA4715E0F88D8674793344ECF4EC16C62934CB0B403776DA69A69222AC8D1A1E483B40DC8FF7453CC2642CA9190976D7C8CE87273B2195A23F6BB835CA8072F5081DFB184F45FE57254800D6055AEEC6A3F3EBAB01233897EEB2EB41928020164A90DE052C3407BACD02BDC5955CA3F1D8AA89B55815B6A84C332BA51544EE97A70EF031FF10567CF6C2C47E739F8ABD218AFB78B6D002FE92F825CA1002E677EF74B1EA9370D7DBD00FECE14F605410DFE5BA7B1874A983CA76B4FAAA33EC84858FB55CCF457E0CD5EC72805A641BE7656AF521CCAAA71DAD777053CA40DBB4F44B3F6E458CA7E2330CF755B18F190EABA8498E4A98B1A11B2EB6D54F92D0C325262D3B7C4366AA5A7273E5910F64F0789026DA593E83F5D5AAB31410174AC65990D37D6F0A1272D6EBA0ABCBFFE55F1990A08E7A1D9012E8AC7B650411945E0C0B432380DAB09455E3F81DA16BA83CA6619038B81C023158D9CBB3950063685AE071B7E053E9D8ED2634A593CFD871D0FAF6FA79C735F97DB5A2799D0B63436668D3DB2BAF66CBF0F0224EE96F87111940E2EC1A9D41CCB6F61F7C92D6B4887D97FA4183BC3A49B9985B23DA2FA755AA95AF1B1D8824199A268C5D2005B57CAE2F713A6202B339C23596D75CCBA3106DFDC3B1D7C2F710DC20C2427D981C68E7ABC711AA49A65B2FF0E05CC1E98D46827F41285427DD1428505CB3ED2C73106262E2DD66030AF95D1E35B8180938BE09FBBAC530E80C37CD818F2C7C74547E09BC85314108BE9AA5612C266965DD335BD1FF92E08C52E3EE6CB10650911F78CD92DF978D7AC2E3A694BE3855438C1D5DCBF2CC5C210CEF64AC9268C0EACB61BD925432EF74B42C75168014B5F17AC89354738D89E3E54B0C0D5462CAD665E0F79A93460E769D763FE2DDF1CFC8906699C8DFA688278A114C8CC4766E7551781F0A0A6F2E351F984A85F3555701C4097BA2B5192AF1B54567BF3995F159323B18525FECCD184903EA23C851D84478369882507F85878087A7E8167B18EF3EC864F7C4561963011027ABC3EE584F48FAB091D0A389595930C10165C57C46C6C7FE5E71216F5515953B7A6725CC5204F032F76AC8B73CFD7E6C6AE64913C680FB7EAA755910A3ADA2C3F6BCDF78C0121F808FDDBD92E0EF3CB0EB5EE952E81275B8E0A4E36046CFA6DD18F3194F5FDD7134B7965A9FD6C4EF2D1171C26DEF341A85E9AA1ED679C4E8B218BC5581B7F081686F08F08D20F085E279102FCA8330938497ABC3CFACEFA6966D78DDEBA36D41EDCCACC11571DAF98C6C55AFE0591375BCF808C168A03E4C5EBF75A19F2E849A0CA05491F30CD70222985DF490DBE3642FCF6559FDD81C9C53EE47B0B4CC3631A18FB20EA578EF958DAC16C9584D993C00B7E98DCC1C834DEBBA4E24A2C40FF83DA45FE1D65830FF74E96158B47A5941ABE1ECB1FA99859A0314159D89B60D8F8FF207FA68F588DB9C110CD697B129029ACE7B0FFC832F0694C0B7137DC30CDBB66A4323A5780EE4B5938B738AD424DCD64F5A12531293D54E7854E6B47A2DA98D7F18C4D8EF921636BDFCE108BA4323731F085600E71428345E5571A568905EA1D38E121FD739CAB20A0D5A4FF6F6A190A965903E404E3DE31C6549E2EBEF15C8578CB9CC52F3C15563603A8B0CBF236412B46D3768FAA775C7F30EC3C898A375D855882F87774C405F24A74684AFDDF9D33D14D7891D0E8200CD199C48FAE0B7B906B4347BA8EBBDDEDA41B51F2880C893529558A5E82368B6A56D0E7053757198C41213CA3375DCD4F776480B79FA139E3880CA8F35B58425DCAB1D13ECA4C1645E0620B8D3B99EC4D9059CEDF87EEB4ABBA2BCAF16B56D2A8564F61E22167DDD190C751CD3B1E7B64581CE03B3FEA58CCB72C4642F51F4047A3FBA921A0109BC03A1853EDB4D62415D18EA11A0A8F1C57683CD67028E03450AB1DFD132891E6140DFE0CFCC6AC3CDA406C290DB898CDE1E591024E56C1C71D06344357617B2AEBACFEDF9EBB802619C65DFC74EBC951936A23444C3A3EB040DF74F014C708C1198522283E124B23935107FCC1AACB73894A4C8E3D28256704DAC26992067429145739F7696F2C2119D16FDF96E7F1472A23BBA1867286FAE6F9FF7640E38D1EC11B42DF50035760C6B2FDE908B5118A6425E8FF4579231D0117B328C056AC43036134082E475AEE0AB5BE6746EB113AAF3125663C588D84D211C2390E81E7859DA73DDD38EC47A39705F43CCC4EE45BD323E28DC06B7AF0FFBE669F88FEE33C6308DCB62CB173988814EC905365143AC444C0932D96BB440A1F5497A6739D23036DD67C527F1391FF9361A1056D160B4F4EAEC498E02CF6DF01D5B6E15C18633C4C484B5675BAE8108B939D1ABD2FFFA9E9B4128A27BAEA048A18F739EAF109E6F7C22E126305CFA3E71C2DFA833C6D22F0F4245FF8F7E79CAB763B08DB494CCD50CA62DFBEAEDFD3F9FB2A5218F64E84BC58BDDDEBFA80BC74696240FDE63839C989C9638FE358D1746E46E797571D7949E04B56EF0FDC62F60F594ACEF57E3BA0DCFBAD1DC6905F06901A9BC93BEBB01C34672035DF7040909CD7D6299E4AA995D8734800F4675BFFEC1101EFF1DE1373A37964875FA7F43A80C8A37F4D9190BE42F83E646CE4D40FD589393CE1A579FC97A0BDC90AB1894868994FEBB329F9579AEC91831BF081FAA9C04D07D27D8CCEAC9557BEE67B7067C58F03F922AED2B67F2B3EB28A482F5830FA27A2A2FD57F21112A38173086022EB621F1C2773F49EFC151FFCEE4A05BDA6818CD12E8074FEB79A44DC1B59181B7AF986975F40FBC1DBB6E901C05662F8ECDE72DB59DC7CEB432FE372A60A29095A3A657D8BF6B8D83C8FA3B3BDE157D20B382322A83AC7317D9611BA63C03C2EE25D5650D7D6842D9D2799B52C126903CA9D5827455A0AF4F25E0715484E08763FC797F8D8B9A3457A57FFE85559B8A1CAA8723B3AEB07249B897E57B1B23917CD74F7BE6222F884E489E166522A3CF06A54CB7F283EED0ED73F31A6A4EE508774A69D3AA7C2ACBF6EA6759FC58358B49C8F7CE479C68403C19F66B7825647348DC3AD36F7F49D4159630CB28F46BFA639DDF169C8758D5AD57ADEADF0A5F82C39FB9F47D991FB675C87C1B2E2375B7C80D919EDCEC2F41A8C3E290EBF57D88E8F90FDB9788AFA336C7B98F9B8A13293C2E14F91431A8539B250DE100C58924B8816C075CE9213CC4C4968093EAF7EDD6E70B25A1B837903BC9EC2FBE3D61078FD67BE72381512FE06039220557F4A520279B8628795A971B1821A0D1A1C2DEF6E8745FC992D3A2311C0DAA0BBE820A010F188EA9DEFB7FD8483DF0A8D25FCF2B4D55C5564AC746201E3F8825CE9B94F7231D118D2B1C0BA380867D3630A2F5F6922839FD704B2048B6D9C965A306C12D1A08F6406E5CA47B0071F02932A7DFC265AFAC62A72A05F5D84AF7BD21A23157B2731DA7F6B10794251276DE55E964780E50B69C7122965CDE2B5F3C0A6A007404A16B72EF5D38AE237BA57B5194503D1552CDD55FC937A01A7C5D923D3FC867E558D9EF92A083970CAE85611626B034E01109450F9087029C04DD97320046116CDCE0D356E0FB0311F806959D6A18DAE1E060895341196EBA66263A310BA9FE4FC80F32A3F558C20F78906CC00C01A0EF0AA91D80608FE988F083DFD329F6A1A0F97D873962E131FD4B9F3304358E678D30B9CD86319A53452A5444F48A8BFB32E5EBA67518140DEC71203042EF6D107AEDC0DBB3E808B9DF0E65E68DED3C215C7F99EDED910CE5FB45FA354A38CD24797D08164436103ADEE791B29658A6241281EEFAB7E4E3A5F0D42FB7EBB3B80A3296FAD2B64A5A3E0FE2952CEDA4D4A6F800C5118D0C0F8450BA610CFD0F0DE85915A6346AA825E96C7A36C45327F94EAA1670F3EC8A91D999E220FDA1265AAFF9F516E2120E184DAFD6231C444E96898CD26315A99DB6719B6128F882004B7BF325F4120BA128B25CF395EC7416B6981A65B3AD3EFA6729FD7C3A4A838F750A0718D256826D00986F75DE88F858098FDE6463FE17BA945C7449F4574CA3B5A25CCD594103452E5D9AB11B1B2E7D46CA86E0137BC0D3F11BCB557AE1A3803497800712096B488ABFB344F28F7A90B31E8E10CF0E0E7DEC238495A02EB06A8D5696DB3AB29467B0D9C708C58692845878F9957FDF6AD0F2713A249B52594EC0F50C07EEBA3F3E27A7D8FEBACFB248E5D32CB08F033AFE496DBDC0FA06CE1586D7C92FD7AE92326B4507A00BA18532C6C873C91CBF434E1D169A12A4D2B57B319AC5CC4EC929B34BDA31B3D6E86E8AEC5608DA7159E7274FF220BBEADDE2DD6A2D26BED71BD2E43D94E9AD6B3D7628FDE5B61D831CB99D21E5B0307C1C58A6CC4A533868392F7D83F901D537B235F6F1917DA17AA9B3F101B6C45DD99F6B06B5E86599464210B110901E8576A9D064AB1CD0BB5FEEF478F529CF759C4262734D732C7633BCB6ACC62C22688F430F92584CDB33AE4478757FA69BD58C7A55941D4A7A0E5D5571243414794A5F3E07410890EAB2E98361902988FBD3E03153967A9FD0D85F3E3D2418507264A3D0427D21FD6CAC95907AB5AA3C2F73A05D0AFE8675D23F61B98F95520767F274DB0691E53F105D839DE5486B0B6C78D7ED12DC20D18501A64B401DD4744C69A0C18F4588393822ED41056195265D430109388070C1159CF8CD225B80FC2D559F5E1BF30C0FF3B8F7544047ACD0F1CF0E132094D75071F35BFF144007292D9F9DE1FD7010B6DA9C495C6653C1A80A7C4775A9DF08A953BD57610CB7AF91A3EC0417480A7D97DD8B679915429289F7AB059453ACB95E87ED2B5E35937F34EED6C3828315CB5EAE8162A29E2D66D9AF34CCBF1CE56488029C3D7037C8C47C18CC18477283A6D909B4F9E2EA00DEDFD7845517A29081E601344AE3A7DD677490F9383205F0ACEFFAFDAA39AFB9FD0341D857650C8E045D91EA017615F9C2DAA4277283F7086FD2787523ACE43CC4CB803951598D34B5AA1BBA85BB66A270A6B32DF62F21DD998D3234E8FB595E0C7ED13E8916716D5B7016654047FE03122EC95C3C82365020986FE30BBFC7791FFF86C0C77C7D984F8F07CA7A2106C5F7E1E36C487F5AE4C193C8892EA783398B9359EC2089EF08985BB269CA123484224EF200D2E1488C2775942282A67129227C37F1B04CCA9D6A90B48C5002CD0A7010FC476102B55A0EF57906808201022B2761C308FBB4DC0A6A597D978A76A37E6EDD86C45EE175CF9951DE7675037B00A114242C51B26324543205EE29F01E7424DD9BDE2BF6A1D144300D0E921890960C84FBA8277EFE1B886F0EEF10D83EA4FFAAC6EC6B4D52FFE478AB0C99A6CBBE980407A6DACD089979F1324D60FFBC0774C541E30BC42B068C6132E9C1748B7F656A71BC4B5EE4EBE2023CFF4B0EB57FF1F0E2F571E170C3A6BEC05668C5039BA78C76997398EC9039934879B2E8D1B8E3FD1813608F9553B3C586BDAAC71CDD18494D2B8BB96B0F21709F1881FAC18B9E3C0D20CD9E44F57DE1C8DA6D201F6DF4B6021CE4A3E122D0BD5C54DDA988A5999976A3D19EB83BDEAC1EC6C71EF2F50C5BFDD0807E1DD4FD00F8E65DDC8781874A17F4705626AB4629F2CB46CE7D5FC815B699F25142381C191382DB7D87EB4D7F95BD12718F413524444BC4A4F208901D784FC13ACD3306AAE36EB2C9FC6C6602175561EE638C76A1E6F11DF31D2E66957D9C7EB06D9F712A67EAE73E14C0A82F6302653720FCD2C308291A63D148B30E1FE9CD65D132BDC96A61A050EFBC9F920372F2A55D834917322272CD057555FAB77B4EF9C09BE69BF8924308A8D43F19D1BB2712826089B196254637E0C4A44B979F9A2A7792258F4F76EEDB4049834017F6452CE3AFCA41BA2B91B7D07A21C27EE4C8974114184214D522263AA457FA9B0F73002BEE3E04A136C70282F41EC343F0B0C4B228A3DA23E79C83A966F2A01D957729127CCAAC82CA8FBCA27CB454D2BE10BBF53B84FC73EB4F0271A1FF5C6CBE6679F0D8ABD171F8BEB8A7D8A634EC483D831FA18AC70CF88CF278F79A534F853D25671EDD59EE4C3AF05466991A02ED1583CAEA6F9411B981AD9FE619FFFFE98A03F6A52004A4E974E37A89DCAB1140A6522BB248CDBABD3F4CE5E6E50111D1170E0C8869A740BFBA706D5443D016CAF67E3F3E9FF43699E2562E0F2FA1EBED78A2DA356653231DDD9DDADA5B717145A429F0FB24B7D6495C7330ABB9DB3E1B55201DB149A3A436E7CDDDC65608594F0F52D51B2E6BDEB5B672B019D475CCB1FD757125F3463AB616A88B4EBBB722B5350B300348EEA85E397F7040BB66774DDBA7139C5F7BCB28803F3F80BA91FDB163C5BCF7DB91C74CFA1DA5E97891F8401C2643134367B1E1ECC8976A207CE5086BD32EFB6BB622E91C2E46E39CCB6C2A0EBEEE871D45E3A78E2020A0020BC6209A65E574BB9ADFA2E0CB098BEE12D2B03456B7BE381D8A4E1BC0838D4D3006E4066663C359901BCDFD1256AD2DFD7CA554ADF3B8B2A9D879AB453F9F6FB134F880339F7B4D5EBD0CF7E6B9B1A79F3256D2D34B5C5C63BD423832B3036536AB3F73CE46A54A9CFE26CE639FB2693AABDEA1272C192C6BC60D40380877D28E0F04D4A2863B418410D11CBB82E691F8874F958B60A2C53A9431F14758EB8D31A179523F978FD56D97F4977353F3D7BF129791084DA8DFE8D6B6B1CD462B428A7C1BC91FB185DAD1124B12ADFE62F8A235377518F4DD7C7F8EC24458C6CC0115B6954F01158F46F79DC89A50CAC4304D9EFAE27CFA1899C14B62FE654793845DE1613E5A17ABA6910E45F2FA780DC42BEFD01BBF46557439543397BA31D09DF3628CBBB35A9949B4E63D7500B8A07162293FB7B0BBAA91C51CAB0B7C7232216AEE4BCD48C0AA5869D2BDFE8D0F412512B564851300760C58BCDA8F85CA16041F8ECD3003237BB7B709471B178DA96EC797D8CDA46099E9AECF793507A85C22F187C748F51B8D70F55BC3D58278C6E9DB74F2DC7883A8BD44E771E5A17CF6E404B3E156DD68340114B06489A5E5EAEFBFF47DD1100FE03F1754D7500575B4AFE23D0BC73C235B0134B06242637E965A4198B51071CA4258FD98B58B468B2279521FD072D97EAB4F30F40E217B7252B112A5DB864FCCA1F6D78BF640835A2253742DB256FE6BF52A228494E68E3BF493B5F2E83FE17BF99380D6034E7095658E540850752EAEEB74A52C12AD8FE38E0191D247F38249344526CBB553FF3104B7AD324A2B1B3CE809F337DCC533719EA4E9D4F83C3A274650F5A0178E36B6A7C36846F33B60C31729D97C0363B00EE4F9E9BDF1C291ECB6745D3F24FF2257FD3345585CD2379F4CC71C6902B4CFB89879EFE8CDA2940071C12B3BE83DB96790FA33F76CEF8A7D6AE21FE63B2242A9EFEF62040E1FCAD7C3D077E736EE10FBA36C8FDCF8932077A19C4296A17DC8172689FF4D1845D05C38028FF5761E6B26C7B28B5D43174FAD65525C8297FF39DBEE5C692E188BF7F4B8B81F5164DF66378816269E9DA1490287E81BA96639F11BED80375EAC5340F14182D9DC9BA5ACC8F97CD2470B8028D39819C5A69F35D0A2EBB5B7107B5EAA3846CEFD1DBA11A1D9AA5C968005F09144ABC9AFC21B89AD693A3EAB41D16A3DBE1C2A9E1EB053CA4099618452DD19327817464A31656C6156FBB2E275E220103005F530D529EE51EA290E4F11935FB56F0065C10F73520AB6CE9A45FE57041FCCB386347419CE6B6556F9FE2193C00AC96687311BDA22DE5B674070B21F3878E37E37D914AFE91326590577516DDA9E0682E10308E36946DA0AD921F02B022E13774A04492327B572F248387DE4778D69981361DE2D42C81466D613644AEEB0C36C197EEC7B0F491F92019251B7D448049B3BE38CB3E746C156CA5578DE862720EFAA32EE75AB9B3101F64B253ABD58709979024E38B6C9FC3FE7D15ED11D08C4587732DBB9AA18688B85E2B0AC679EAD2B72719806ED750C5E8C0774A6C1F4A319BE915A673E8858C66112F74148CB87523AA6C90F8E299686C47CC34FDFFB2B0E000328F61692EB7B29E9DFFA1F26078827A6C605294751BF9668FEBDE9CE56DC5D39D14EA8A071ECE04154565A1930E1AD45A12E0379D9F827FF8DDB4B1FACABC987E0366BFFC948EE3824BCF9D72AA87CA99C13F9E64F147AB42C97F43D327D11DB1115B7B41A36F2987D19B13D6DA310C3FC5E16FA9789CB0BDEDC1289935D304A9EEA97487666779BEB9648A06931162D67D8C3BB251C2D69E8E062358A58AA1F5013B966E9397A15FEF44D68206FB5D38C852628E5B2786BB009D46ED1EE6D685F1D4D8FB439AC001C15B396174A729C00253D54AFB8B7B45AB0CE059010466A9B15F07D10D68F35E2FBB9D0E307E2833B7743AFB0B6440861052DF314FD9B7EF8AC434B38CD5893F471C063BBE41F095EA92926A82FC036625DED46A1111F24A911C00DFB9DD620AE9DD39ED54F981FBD6F4054000000018CB4457C86D4CEF7D2B37A184314CF02AD815EA8FAFCD9BB3479C2095C0F7C769A50512402B3E1C52861416F55F0599A10E53F052524BD10CC74213C1E21BC1</serviceCredsJSONStr>
+              <accessToken>201000000D08C9DDF0115D1118C7A00C04FC297EB0100000079275FDE4CFD094D9B0AEB7CF65831FB04000000080000005000570044000000106600000001000020000000ABA7D30A01C589F6B586D7B3D36B03118772DAB9430B154BD420CF847AA99909000000000E800000000200002000000020FEB40629B9FFF227EBC9F15C72C391F12464A2F90EACEBA894BDEE464C854AC02500008E9ADE6FB6B7879DEA051D70C93F542102DDED99E2029DA11620AF0D465B033597ADF74BF48FC67715E5EB17B85CA6773FDE68CEC6EF768487314DE4F4703AD2609A89352193514DB0EFC976E572E58C18D7912B8254DAF29F89E1D71AA6C5C56B1172DAB82C84CB1474B40B3976652FB156A40385949465500164783483869CB997619564E6CAC174B553ED1FE5F2BC6ACE8152F987C4CF86E2CB1334ED59A46098E2AD12E76E6393E56B7A618FEA5B13E271F7D8AF2F404483BFB5E78E32017954E35A1EFE5BFA37878591D6B510F18881307AA8BD9C0508DBC66D7C9FEA2D2A6E06433B378AB4E24B7866854CF6F5365A5FF47E09ABD03B0D4E29162633D75C166D4B330976D1645036076C170A19899775B93E9AB94CE416F6A78758563D405DEF863AECF0878BBE67BA36420461F8E984C6E08A78EAEEA0828040BCBC4DB331BB427044606F24E794F525C66E8B4F2F8A88575D33851CF4C46027E75F83A2F4F02463984574C85BD70831298F7156C8C4B1059E31531EEFC987913F11DD33133D87344761C1BA0527CCDD9B10DE0D2FEF074C81F8FCD413FB261FF3417F1AABAD3868FFDC0DD02AB5E69EC48EDCF9DA073110FF9062549C3FEF0303A87F81EEFF686E1E8762E368533640CD68ADBBF7DF7B8F6CEAB75DCA13BC0137C46B4C716B32DE48086728B851FD297D9D057F1EA47BBB9224DD7F6F4170646686B2797E24F9A475B560B95234C6EF7101769880D9D8B7182EC48B9FA0AEFB0A8EB132BE51110CECEC3BC78FF7A70445B287AD32895EA7357A5B6C5386AE46073D226F7CF5D12BF332B41422CCF6874EFE5EF9BFAA94AFD44402D3FB482F33F7553AD8DF1D464655E428FD78A7B5F53E5F0A10F296FF10FED1B663586F5BCE57CF8BDB4772D986B8BB108077B06BD6C14CF819690ACA730B2A115CBEAF86B46EE8B6083667AE719804427E12FE970C0EC061B9AAFD95AC5D0E3DDDEE9368EF20B36D3A94A5066635EDE5DA9F97A44EE1161707A0A8999646DCC16D59DCB4A22378DF1EF82FBF4AE8777953E4DAC3AF5E4C3DFA24E76AA1E33939D7C20FF6F52A077ACD835BC98BE6DCEF3327506C5AE1DB034F0BC715BCF00E675EF254226A421B195F0086CE6529DFB4E7399F4994F50E7584C0A235AEB31CE57534910D463C97FC8F5F10C7ABD0307B0F4187E0FB2111B226A37B1BEC884636EEEA665EF57D2610CDD45FCC3598D284B4F5BE93AB70832F499BB0F54FB5132751308884647A37262583B727EDA791FFFE9DB8D2908B34B9E4A584D9441591A79A39A37B1560915A226A42D6BEC10845103430410EF7A1415508737DB559444DC7892C3109F525E6548B2A137FBA1165E0DED4B7AD1C60260F11A2AADE4F36A9A818817A70F97CED11DE422C420D866A760B8F0EC6B9196F82F6A7791C11EFDA72DF538F64CB5D36EFBA7EE6CC30B69FDA3A82ACF728A02CAF2B42D1B2030E73483E995045CA3FDE87001A6BA36A3BE792A0AA7B1699D824FC88F58576CD88B6BA3756881D52862D4DD23A8877C9C0AD283FA790F0BD3B5AE414D1EE20FA8E5E01B8B72BA0C50765018D6DE117CB842BDF4D42550FD10014226E0E1CAEBA93746D0B1979621FC5458DB569AE9E82CC1025F9010AF683E228E44D4523DFD35F1FC38F2117B2D3FEB6C41C3A23E005877FCAC96C3E0576C57CA4D225060FFD2A82F44E4AB2C1C6B07CAF3C54E4A344C92DEC408A834A0D8D25853CCC974BA71F61C30B02EE7ECE2CEC197A3FE84C9C6CAB39AA1AC226516FFC9ADD129DAC5CD3F3F4CDBDD6F6937E8671D600346C0AB8B7BA7EDCDDDBA0E7E43172205A414D78DE21094DF518E99B106B8118A8397C8405F0D507070D2E93450F0E8A7BBEC2E6A59BD59173FD4AEEDBEDFBD81F5A8B9FB2FB64ED1C0396C37E25E48FE49050A41F7049C81A07E0610E0AC7EAFBFCBA19770FFEBCE9B14F87E751EC83FE27E848CB7AC0FC8A978EEAC765DF62971DEECB8687EB32CCB45E026D313AEBB2AE06B0C8EA455854CFEB88BFC7D6597016A5F1B17877BD49B6D6F75C35A8E5267F7DD09BF4021588344295D3CAB13E96900BE4556863249DBC2D0738DC8E10993243F880274977C0B58403C3D4EE51503875168A496A24D9D42B63E6E9EA7FEC68E5FEF1579EE4DF4F231F302791CBE0C84655A155F4A0555773A137A3A5658E5C4F34EDDCA3276F5861C9EEDEBE449F8542B96A258A00CD3C1DCD154CCEAC654144FC12F5FB812C02AA5F66A19A5DA49762556B2D42A0AEBFC88F8317C68D1CAC0E25222A87C428B286A3DD4198F94D136ACCB50AAF59ED4D7E1856BFAAA86B8597A7018E4D5C391D12E03DFF1CC4B530750A7478C3E622A114C69FD6299044E4A1191BDA19640E6E4BB52B5976B29423B995DB11AE437DA3EE42063281B0DE56580D9DEE2E1D9F09AC8AC66BEE1C683E15CE53FF55AC532140466C2FA9DD0BB1F86F0C761799C1ECC55A5EF0D42DA77ED75DF15AAE3F0390AD8B7ED4DFA9BEFBABCEE0093BB739BC2059E1E2F5FD69640F31F3A61D429FA2BD6CCAC3E34427F339C65D572FDA680E1DCFDC2C8CBBC34505E6A262C4857A3839C76ECAB89E47E40D7D1E5B42DA1CC60F71602C42DAB6F90D45683CAD647FBC495799F5BA446BDA6435D33C48FFD6CE2D5ACEE907287ACDFB0EEA45BBF031B396F6444750ECF88B724ED061C00C447F66932FE952AE5EFBE72EFF26B55F1AB1EF0DC77D0742DBE4BFDBB34E62550152D3467E9EDF9DEB764DA4C694A277AEC635926449A66D7140F4C654EACBA6244E1B945F828C27A5188B2968DEEE6C55FEB1A8015DADC03952E817F288B446DA82D2B3A25633E94EB7AF8ABB19FC40BBA985B20A7A74024EFC4A0506B192E8688D35E733F7D5221E657159BB57FA79F99FDCFE23E85F8CA54EB4A162951C8E1A3C085E76EAFAA13B5B2B8EB2953D08E5389486E1D7011D78FA2F8D86E4218F5C4364AA940D7238B4BDF79C1CEBFB0D1B9F68255243E05086C00EAD3D339DC5F73BD7C18105649DEDBB5315DA3C4013C709FFF0C5278325D57D9E4CDE736051B4FE3C8F2A3056F2A947000D243627B15115B5539259B4FAC406AC66180E38EE3B0A27AD17D4AD41D0E038A245FBF6E05344D18B62D80FEEE3858B53CEA2E8B752EBA7A1D23D766980C87480E1C17E748F3EB8A49483094A5E9E1656D06A145C25FCFEE4512B79B81F389E992B6DD82BA4815730FC252341BE24FEEBC18017805746467E5ABCFBAF8A12BCE574D8FEF3FF225AF659027F1AD4A632AF49BC02DF0A05FCAA7A7B516A0371C686B83FBA0072C8D9E2F7E746A6D1028449F0FB0A8098EFD39A25753B1582252C73C22A8F6BBAE5DF97A7110E982524AE3BE30C7CA16FA1849D79563D414C3044B88ABC1E3E61D352FD23DD95681A5A9C9AF9035498FC7A9F778CAB91F3D824B1F56FECC0BF6931B19BF015BB6E28F29F83502A56F436DA9CCA571B84D690D1037B05C462744102546FABE3234797909D617D99DA62152CD6093F56703D337CFE5DA04BC7F3DBD693ABB2D93C7D9ADCC661201D52445332390940B3BB9FEB0372A164A26B509F0D7B02A147581DA4C59A7C1F7CB0CD07BDEAF0EDAAA67DCD46CE3FD165A92DB824F3B34395979C866A17BCB69D80301C317ED6EA3F6EC9D312B515CEB33645FC442846DE282AA549A799694754002EA5944A776850598BDDFB57966D19A098C418DAC56F0C00270CC25282FEAF46DC6DECC6D4A701411B0085E5B55EFE5BD01B2123A3804D18251A5D0594880DE0BC8F39CA224B3F5961AFF6EF55F08504618C10E9FE6CB40B983BC488F1F58838C046FD7EC2EA7A987DE5F81C8894925A4BE9FF7B7BFA84CF67A0906CBB27D47CCEDEF28068D3A9876B543E89EAD988A6B9B95C464524A0DF65605C829E20957800FED81A5B7C3B490D2E19ECF1C76EE6BA75ED842CE5C05B0D9339311777F25AB948FFD3BBB492A6CE50DC2AAB3D2ADC3F21C0FC175DA5CDE62B83DB9BBEB73EC17CE333CAE123454D93082392E1B641F3FBAF194559B2EB001E9E66B6AB0C63562FDB86A98422FA2AA75BC93D9DB633E60215F1983F9D10DC61FC408566598A35AEB4AACC81E6DB4F32534F13E4EAFF98D7B0F24FA5F2AE41F9C140BAD346D395060DCC9B16DBF541E975DA7D71A00119192050371406FC6F55D6BF669DFBE353C25E9AE79578091903755B2447681CCE2577EDD456C0E19E3135BD79CAABE718CAEF70BEB774DECA7D37CD7F20AB3A2E6B0DD104CAA4ABA8998E865C917ECD4F37113F742229E92EF91A693A8F98914E2DB96A58E48D69E83045EC8E6D414A5CE7328EAD72A48E906C4DD1611E54925B3F8F5364E9D5B74AF09552F82C912649DD422EBF7E7429A9745DD476FBF9BC889FE3B628CE5C324868754A290B94F98E5E9CDE8B1069B9852AEC22978B61F89B3EB06E4A91D6A253C027A836E53C470A8014011D2507600DA44A0E4843D5A8A5BC36D799155F69D2319A17C206220AAF6E3AD2A466DAE0069980FF70E0DB39106CCFB7F52C72D4F718F337B3EDA58D51E3A471BB10D17221B5CC52E376AE64422299016BB56D98F9D3F45EA5FEC44A53BDA6F931FF87F523EE524452B564106CB80C36116A578814AE6485A22BCC78C0E3EF48EACA6C564CFC9D1D0F2B0AFDC48B027A61946A3071DA0E3B1706F342B220F241326F83843DE02AD65D7372673AA686DD31064871FFCF5499EA432A3BB51DDB0E3311278DB4CF135A74926888D12EA2E634ACBFB2E74EF66E12174BE8313351B84B6315BBFC439C5FF002AB4716DDA3849E8BEA665229926951FCF938B6EAA0273C864B0473BBC18E93C5C83961819A548EE4F7CDEFFACF25C03245A6687388AEBAC344D99361CD0E6CD6CF2F7477384C705880975E355973EFFBB5014E9E9F4D47E35CFA081AAF5D52CE17F29005DDC1882457D3B7F8C264209B7BDC4C08B58010906828CE251B707A752C4183769D04E297AEA6DBD5F01D07E4F699E326EA6A3AE980B2705C25E06BBC13DB8DA39232290734A4B5528E3F53F675E2A87EBA244947B44BAC352713AA3EE247B5715B43305BD97345C7179431DCD0D2B2513AB95A0C1EB9A4B44E822F2224AC7A6E12F3C1D86290A6998F9ECDE1C8600A69AE1AACEB01A6C493A3AE6BF856ACF3C6C3C542748A41846D6E343A3B39138796B2E2363231FE25EDDC6ABF6E52B11411347C210181A14E4C77DDDE91E68900EB217812BA2B75F9BC378BCEDE8756EA3CA786C0EB493E7DF4626640082F3F54C89CDECCB1AE5D6D7F568A8264A7FDA9B973FC7EC2E7170403A00C841E335BAF1CEC8253937E4CEA6783F462FE3EDFDBC5100A98C9965BD653729C1ECE6D7B66C26E381798CB8A1FF67686F91741EE3BC21AAE1095FCD4C4D6AC3CCD38A4C1C7F63DF30C7760FCF6DE5CB211FCC2AB6D3CC67D69CF5C9B8259E25F35BBFE7F3E407AC06E541BEF5157549D3140170D624640E0DFF16FE7C6E86555E2AA0EB459E2F5A4E08F38148C8B4F70A1D33C21A05AB4F46A6E31B7DBF97ADBEDC8128DB092A680C6FEFEDF31F7EFFF427432AF247DC5715449E78DFD3ACF25E6EEE55560FB77A744A855F09B00E96EB854EF1C2028167FB217BD6412370F0118254497F294A5C85204158ECA491DA802D54EF7E8FEB8D4E116A25610C7734C0B30BBBB7CB19CD0BA11D87DDF3FF95CE8819476DA500D644154F1131BD942F1692254E35EA6831876385739A051639C3CB26F8812A5546ADE24BA3FB62530AA24A19D79B0499081159D8600A518BE3863837B06762758C77782E935E85332E99A3ECF5593573579E2E6910D0DA0809331796465D869E06C5DF13DDB73238EEA107B2969B1C45F235DB97B0DAFA25B8CEEE8413924AFC0C0E4012B053141219CD5C75B7D55467CE4E3D228C20ADE998178B61DE5F979C323FE2AD761FFB17FC30E6DF517FFE42101A967903B20BC2D8EE7244F74069D007AE38AA924BF630688234C9623AB0262F363D243B884500C7BD9EDF56BBE15B79E588784C330B497C6FF1140F8CB3A0AC747CA7D3945D64A15699E7AAF7A9A9D1DBC437AC14FABAFE7395EE646EBA9D1C3360267D0017B9AC1898344BB1750488F3B202C38D762C36027A3BF3E5766A7D631B39519F8AE9EB5B85D972A43D48CF8040F6EE8236938A545F83B4B3DC49C24B49A4C4F9A2AA8D92673BC37CCC2320173D502CA96D6BA1C2921D6D0D5332162EB2B600BF2E8FE14AF4FA5425F97EA19B25E4FC926065EE0E68043DEB1212C9E446EE9B9709CD86F4A613FA85F905E61CFF1EFFFBE7E70D1B8AD0E76F2C549159C2F2FA36B12EBB3AED7E67AA7876D85780ED0451EE0DF19BDB1644DC070A896DF97E9BD657585D03613663C638B2F02151095D05185EC3413DFE430921FAD935D76184E64209E0AFE334C4E0D004014A0859064617BB7893930A293E1AC3DF7BB10C9E255059ABE36131BF06DF815A3E1A8149EE315B9FC4C713B41989D674BDE5F6E938AAE66E97FBDB1474DFFC97B70030041740A08012D20CDFCCDC10DA4F76F09DCF1F51DF6854A2244C4DEF1F570324A276537754D1E10B21D95D50366F25A6A7FD1A7856F1382488B34E399B6B49D731BD05BC36A1C5664832AB684B7E26993B6C59B474EDE43D0EA023D4404F93B8EF12CDDE946A62D828FE12B5934DACFC6008955F69C60E4FD7A1337E627835B8C3C4A9DAF815BAD8586FB1CECFDDEF9E1B64DC48BE1972D6C0DCA411FFC9E2727C5A20EE9787646B7F12D9AFE1C39C96E568C59FFA1A187030F6058E33787BAAFAF72961BD1604CBDE138CBB5B61F2BFD9EF1F7DEA2D03FC8A7ADAAC57DD711CCDF05159D37A427CF23AAC3833D30D04A7C7314BCB75D4F4CF1D7C69CF759430E1E170C6075ACD291848FDF8C0E643E1BEFFA2C4FCC8EAE360218053310124C969E1308E7628A0D039909799FDF41EDE59248BE0B8F6C64D3D185E1236F15CF1DCEF450E6CC1666D9C2547FF588484B8A03825B3EE7511D7A0E8A55927990932EA76B53FB01247F9B3A22BA691A2AB331C41BDDD19173AB0515BE58EF3530DD05CA3DC2106FA50A937D37258E020CCAFC2192DC61359A56617FD9858EF09968E5C15BC160879945BEC02F2F01CF8C3A8AD3E81F98A35E64891ED15677FEEA00689ED3798DE399A0DC2230219D89B456359539D7AF19310C9A6C4495369E59B7F2E98607D43C2ABE7D9BE8F49564307911F7179B1049C036ADFA371288F4D0D22595BE6843DF2BF40E8326AC9BD232FC000CC3513BF259898C0C4058ADA7D0CF30106333C9C52DE74AEB5BF832ED83E0E4CB2A8BAB69901429DE7F11F531F112A746150A5BC7C7D877746E2676D5D80DEE4B9B54468E80F4E390E44C7EBDFFFED5DE1DB52A83510DCB73F4C36AAFF3820935D49DB72222C1D7C78D8B7AB0AFD5B7446AFEA0ADFDB6D5E0A2613554CB29DD8A2F9BF356D3503F668770AD9FDE17C1F64CAA05C6D66885B3E924A588429F97E40E246E032E562FC848CB06B3225A81DF03C27A98D120AD5EFACD221B05B12DB334EFE333CB92A98AC77940E9A98BC1FBF7A93BC20F1F80809496C4DA8F968374784A1F4CCA1A80B267C1D69FDDE79A5D2C222D12087B5C05DF0466BA6457ABCC9040EE7B81ADCB4B8EC207DD50FC0CDDFB5AFFC31C35EEF335C5BEC9B471D3639DA86FDAED3ABC33E64A6CE3DDE23698A0A25AD7D105B9A26A291377EC6182F7D2718BA0053381F604B6663FF97A0C46FDC55113BEDF1EC16B10367C7981A34AFED409996B93D665424948137917BA3A0EFFE90880DB84484A8287DF83E6BD040AEFEE74A5F4378392C0EC373531709928E04D8C467790B0E1796E208C6D478BFAA624C76F68A6EBFFAC63EF0ADEC83969E4C13DD0A6EEFDB8176AC5F99E2E3144BFE42C87F722842ADBDAE4F3F64FE5A3365A97BE0B31E6DE94E7ED4E430C294467E04C26EB420194E373AAAC91DAA61DFCFA4C96527964E9DCCEBA5BB8C05C69A32A6249CDF21474C39BBF82DA09C7A240A64A611D9AEAB45DAC272110B5DA2FB66D845634915BEE082834BD66BCB970578578B52E394FF92A7E00B13443EC95EA4CF8D1DA96689B90CCE10BC65CC32032A8AF40A262F71383015967D44C69CC204100E88D95334FFCE320E834A0072C531A3FCD6118F73C3A6D66E1B982C3975E64352B068A512A1557914625D56EA49CD67DC8A8BF2D616D6AABF6C08756787320712DF6DB3F6FAC71E15A8BA576BAF10D99242866D6D739B5CF7EB6AA7F9DFF7AFE9AE1D6882952E7325974B3BBE7F5B2648D036BF246E75B39F09657E1AEE5B4A10A81F28E1DA2F820F2D25215C1694A46E75D8F8A953B5CD3EF1A9770337B4AC6364AF3A7DA8122C8CF3814240455728FCA3A802E61C6219130D200125CF80CDC3BBDA3740D4A19BD6F7B1E68D61C1FCF197E90AE84F66C32002BF16597403159CF3903BBB6F8B75E349A2612C7F9C5CCF782ACF37854B3778FE2B305EA2AA38BDF8870D0015F8EBCF471393033700011280FBD1B3FCA6C8B30D4C4EA259668257EC526B99536E585D4FB5466974CB2230F769062B6A3BE76EDF5AAEDF17BD6DDA307E99D4367944E1184E8DEAC92552DCFE2BB3BF90A22F06997345AC67E1350D02686D5987EB63D42198AE5CABC4963A1E02F84FB402CD07031951854ACA59D369CDC27A131FC48E9F2EC42ED2B45F6FEC93ECF96ED8E25EF7362BA812BDC51ABD5B6D9A24CBF9E0A63CBD771EA1BE5448459ED6A5B4383528AFBAAAC1E74194CD91D28C08E0B6535C6A31456769CE46CF6F2A60105DE884C903282F18A92B33640587D6FA45B419C069E6CEF5D3800ECED0636EF88A54F99C1722A8418D5063CB4AC88DC042BF6A6544BC6DF1FD9096EEC27BA44FF0A74BF71C54C1EBB8AF540539EFEC0F0B7E67A90819BD3C1647DD4888A279FBF0ED5088CE254AD8CF93BF049B8C0377D27D9EB8D251FF7AAC1C8317F676315C07801A77D5053E611CDC179D2D7EEEC97B3000F623A9E4B3D52ADD39D7CE14970FBAE7A2CDD3C1935C49D03995ADBF56BFF0E6633D922DE79DDF83648197848281435DC78BBB0DE4E92B349ACF247A8800639A51D5003F8C50456AC1295AD66A45A5AE1F55CFE6D7660F16188B6D59C47C82883C7EB79173933D98BBF065CF736ACAF7AA3DC39FC8E3204716B745ACFE722C19DF95BF7AD70585B373674B3159BAD6F5BA84A1D705B3E05D798F0964786B5BDE4A2D1CE6C53CDB12748B1F8968BF0BA5B78E2B45E8A7C1FE7EE5A3F6EBC9B7EC4C33C5BEEEB69D1C6C58353D385BA55224050D86582123BB4ECC12A275A62665A8F7E8D67B956AE349141932EC1E088743473E9CB9A98321C09DB68E57A736A57C9A8A6C1D797BFAC2E433688454C0F156C44D2A6A341BCBA1E0E0DB1CEAB13AE66DDD31BEA65C23654A00EA78FDA09A9726A26EB7E7F3DB444CAA5B193D55492D92A2FB4CD8940C7559B5E9DAA83FDBAF20889D4A244BECC1B7117BFF7947B91ED6E5F9F2D96FD7C035C1A8F7B3EE8C9A4A274A448AB1F90D2BF5363086063250A1B1857F88351694199A5742E9BE7349AB246BADF262A06DC9BA7A669DB35311D7E5383EE8A9033C26DC6E87124CA40CA0F7764367E88A3EC1C9D2E36CB654D09602AD59053217A0646C8FB1EF9DC91FCA07F057F45BF7297637B5FA5DF609B97C88D3CDBD4461AFA1CE9E367341EBBFBDC53FC91F8AC1E5224ADDA488E4BC4DF6D54890F96999295449B45B132FB00E5B93F2946C3D343C63CCB6E0797C6989D7B29B4C1F3659B40C2A6766B8DF8232FB837D93CBB752B7192ECB5694A52D62105AB56F28C9CAAF6933121BEE09F93B60360A6D942B35FF7586E9F97793C72EED5B82597B97E6A31C83398B2D397C989C21B04FFEE9468A7F98D746C0E43A3F08ABF6527857610E81C1B83C9C17AB3C654E639A4377317154F58AA01A07B05F4905C4AC7DA916FDCBE4D7E855FA68D71ADBBA402B86C8F616CDF8C949FF2D02D71F7990676CDAD48ED881A92BB58D49A56CAB0836EEFBA9F3EC7C4CEA0C77B2B56A4F7B6FC1A254FA98D8880009C3DEF677E10E17F95BF8A181B7F6782D9FC03DC103A5118EDF17AD3097686AF85384989947887A9CFCBBD6594A505E86CEC76E8B7C2B1BEEA98ABD248ED5CB9B0277D7351F5CFB4D130E26B3F5C7EF30B75981EFBC529D0F11BDFA2FCB37733A0DE6A0F0563BA1A5433DC071BB6DFA9D4D882F7F28021A3BF2B1601602C9BA5C0B3A22269760D662F0C2024E354B44967254AC87BBC966B00EC9DD0728E582B075AF281FF1BEE8FC8210F2E93D6C4483BF5ACD21CBDC5424D0C113B4277CBD4AE5993E12BE137719873DB5E8C8B365D7826FDA23D799EDF4C644F72ED0BEFB1ACBE0BCC3A5AF237483DF997A6F2BEEE26B91B7A051D947184E0913D54AF0DB69A8D0EB19BDC593B796FEF2981A27AFF08D1F8DD7D4666614DD2E725DCE267E3B34D643C6573E90B6D8015A6D2766CCFD01AA4E02FDA0BA115E614E4176C58C6DAF683F6364FF0447729D4331CC5916EF72368E497A86E372A027FA5C2778780CD9E52706F7091EE30D23A9F3ADE4621D3ABBEA460BB8E846DEC495B2969EB2382A778CEF42EA5323635FFC16D0C304BF669AE70261B9AFE84A84D679328B353DB319AAF87F3F727F65DA77FF0292C7BBFECCFCB02315FEB7346552534BCFCC416A45A4BBECD4AB035D710FE53BF7DB3116E2AEAF7027017CB7ADB531CB1F0DFAAAC85F3099AFCB790C01689A6613CE2CDAA7870D24DD7A1232D720195985F92E0B62B0233D1186CC0525D84609FF5131CF336B3F0B388FED55F83ACAE6D97D39C4620A7DB81A9BD958AB83239CC08265C5803726FCF82661BCE9C62C8B4C1967A3A527D9460FCDC4B1A0A1B52A080B1C28CD2F471AAE9E8DF5783A6A67F3D89A0936DF37A6BA437C15B28ECD8D4948F8FD7919A98482FA3D05BCE0754A6B3794043EC398B5640CA75B4A163292D339E0BEC174BA36F1CC94547395C2B9817F8192B866A90E9CACA0EE3345A47FF69E6FB4DCC373955A5E367379D2462BAF1A1510FB48B71D5726995EF2F10C53F0542F79A8FCD58354F1109606874D0A8538D305834E09DCDCA2F206D207E24327DC690CD930BE7EC25AF7C5F7E00310CBDAD70280C1777C59D0BA116269C6DAAE93DA4E4558E8B66DF00C1A5F63B40C982907D39567F78F40DBDBBF1FD85B6C204032C9D40BEA0571C626A33BC28EDF94EEF7A41C9E282FB9AE515DABB5D4B62A74D305AA707768D4F50E0DD44044100D60C1984317B1EAE8714BEB55D801551A4843D0491AFE9E6FEFA291D391F400979CE35BB6BB0CAB29B695AB9ED155018C75CE4C7D6D574577A08E8B1B8B5EF704D2107E8246255C74BE6ED8E7939E12C3F87280FE009F4AB8665177CC100C492A8EF5012FCBAE0C55C4D37AA62C4EC8255A042F52EEA57BD3F06E4D3ED4CC1679358D4DA8321A1565FD6038EC9BC843B131F65514F455C48F2274E5C3930B848DA9592FB58217E15D2351EEA70E57539AAF218FF5862FE751EF4826B73AD5329B3110598E7FB2E3E6A823B60BBEB60865D42B11A323CC343B5D264284A6D9D34A75D01AE39CF60622AE549C9DBD78667D0B0FE372D52916B811FBD4B78CD52F3935C19678F91A9E99F07C74E58FB0E8D6902567A800264000D78352317F5BA6ED7F1B0257CC074CAA61EA8C8C3D367C00AA0CBFD704510E4CD399B266896006AFFE41E534C260012AA9D5BBA77BE06414E490E70ACC1E28E6BAF9A68DA3D4C9AA563F70745F92A2564287A58B26E199F904B1B1A7DB3175309825BEB713B4F642ED85325F8A21CF4F3E4CD915305A5C16723019513EFAC1CAD0E01D7C6509D1238211A897DE812E207B27FBC1C7C73D39736272A1DFA5C65FCD9FB9ACAC8C6CC4CD74CBCBBEBA6359BAD44893BB10B26F61C5E66E759EBC38E2CE5EC675F278F10A7CC7F642ED09026475D7E621A1BCA3D116880082071D9CAB89BEA54C6629E2D1C4A26E7DD87834C595A71080A72F4E5987F6494B9A2A9E6026AF0D6DDFAC17F07103FA166F408C3F114DA7EA9701B7119C3F7DBD65C9C16AB1642B1030C96ED97552A456B02C0604C1FB7DC80553F76607970404CC2D46E4DD7D4209A644DF030F3A3AB80C408FEAE411E3C76BEABD0CC850D6CAD472D2FE0D49217074B19A32B8E7472E5A276BAE3590C1A238004B7B59A9078E0EE51E1E445FC6A8A2528B1D88C3FE6B1676CFA3D8B5B39E4BFA8D5041753200E9D6CDA7CF49538F4311EDA991C7EAD7103E2DBE45DAB6BC1108A37919188463D5D3107CE442BF429E6F45A02CCEDF3202DC528F4415BE8A64F4B4B8E480C4EA7A1FA84818B79BA35293A15D59AA807D07328E7917EF4C32E441143EE8CE9102A162EB8BF3DD03FB345EB15BAFB4A686C67EB87175626528963B2081668DE19A88F7B9147053EAC41CF4A6481850A19B1F29DD2589787EF9991051A9E16A8DDE6592E0F2DE4B87F98F7D0C46A089C4C63C1C9DE95708BCDF12DEA5B8009425621A49EDA088FE79AC2FC286A1C3743A22D7B8C22E2EFE3B90A9D1C4E67DAF6F6254416E6A7D440EEB7EFBA5682D3D5ECE266CFBFBDD00E376AEC1DA012D29D1BEAA34EAE974FA4473D96C883A10AEEB723B73215B99FC05F2FB405704A5ABF016CB228AD2A057E4C7DAF075CB06274109A0732D79648645C119105E5F169D51AFCA30DC4541BA767A8F217F38D3273AC8ABA3FC0546F75A33AA8F57A0D29508B2AFEF860660A58F6062C51A66AAF7B34E5C7C302F47B01F5E1DE39817F0EA1B06772C93E736AED3E6DE1B283B6DD76E78F3477ED8B91D1D569CF00E8B5422C5C8CB98EB9907B2DF942B55EE6911B69A41E370A5B6A1DDEDDC8A39A7EF873AECEE287D64E05F6D783B29FA215AEBEE2874C594365AF21A156C94296DC20C5D5A37E7FB4FBA9E4FBF1B3A2087F176BEA1AD09443196DCACB0C3EA3A228A2EEDB71B2283424E597361F245927D4A7477651EFA8E2B1D60CAFA50EC0BCACFB59C4407B6AA16383A993D64B32B5302F1517A375361375AF90499B50E6E70C06C67FF3FAC3BFFC7A23247B0593BBF03A5F066DD4C5ED709BA27B45200D9D5F36BB4188E67810AE78EF975D65ED7C8194F70D91353C6D3AA540679DEB52A9FF3375789DBEEEA802812113B29F7799F104C5A4AA2088B028C5F4AD9AB05BB640D95E3D80590327B83C04BBC8F35CFEC1E7040B0E41ECA8E6FEEC569FBE49C923F4518AC647561DAF8358A6E43E0A01805C313591685F89C9B8D288D17A1C9C65C707C02F13209E5081C3703F3018071503DC3B748B346158B79168F9FADCC7E5557BCE096269E6DDE9D68DDF7643899CDA7E161928182AB60A357C598C6E7ADC75BA11FD51D8A6390FC880DA55489D52D5986B18EC58623F32C17FFCA2B815240C684076C0726140576EA8BD815236FCD3E4CEDAD1AC336D2F7CCE8994B8129DB76107191631408DEAE7FD85D881672280B93C88EF9CEC3D222D74E12D95E1DB4EC9648C37DD25DC0AA7E1ED34CE07C8BB55BE33BA09C775D6D27110FC08C4D14BAA3C2167C102E9461AF8B19C0FF8198FC670799BAD1B620205DBDA81AEF04E7BA93CED72600B216DE4E12E31D950EFBEEF6FA9400000005D612DC72B00032E941F3C873B8FE44BDB3BAA62571600671BC30BECCE34179E245C0F80F6D0F3E524ECCC03206B787303356C9A11881DDC98AC1C146618B853</accessToken>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Google BigQuery Input
+SELECTED TABLE=norse-voice-382413:NYPD_MV_COLLISIONS.nypd_mv_collisions
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="Python" EngineDllEntryPoint="big_query_input_v3.0.0\main.py" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="450" y="906" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">borough=True,contributing_factor_vehicle_1=True,contributing_factor_vehicle_2=True,contributing_factor_vehicle_3=True,contributing_factor_vehicle_4=True,contributing_factor_vehicle_5=True,cross_street_name=True,timestamp=True,latitude=True,longitude=True,location=True,number_of_cyclist_injured=True,number_of_cyclist_killed=True,number_of_motorist_injured=True,number_of_motorist_killed=True,number_of_pedestrians_injured=True,number_of_pedestrians_killed=True,number_of_persons_injured=True,number_of_persons_killed=True,off_street_name=True,on_street_name=True,unique_key=True,vehicle_type_code1=True,vehicle_type_code2=True,vehicle_type_code_3=True,vehicle_type_code_4=True,vehicle_type_code_5=True,zip_code=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="462" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="570" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="534" y="930" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="666" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="642" y="1026" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="STATE_REGISTRATION" selected="True" />
+                <Field field="VEHICLE_TYPE" selected="True" />
+                <Field field="VEHICLE_MAKE" selected="True" />
+                <Field field="VEHICLE_MODEL" selected="True" />
+                <Field field="VEHICLE_YEAR" selected="True" />
+                <Field field="TRAVEL_DIRECTION" selected="True" />
+                <Field field="VEHICLE_OCCUPANTS" selected="True" />
+                <Field field="DRIVER_SEX" selected="True" />
+                <Field field="DRIVER_LICENSE_STATUS" selected="True" />
+                <Field field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <Field field="PRE_CRASH" selected="True" />
+                <Field field="POINT_OF_IMPACT" selected="True" />
+                <Field field="VEHICLE_DAMAGE" selected="True" />
+                <Field field="VEHICLE_DAMAGE_1" selected="True" />
+                <Field field="VEHICLE_DAMAGE_2" selected="True" />
+                <Field field="VEHICLE_DAMAGE_3" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="3000" source="File: C:\DADBI\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="330" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="borough" selected="True" />
+                <Field field="contributing_factor_vehicle_1" selected="True" />
+                <Field field="contributing_factor_vehicle_2" selected="True" />
+                <Field field="contributing_factor_vehicle_3" selected="True" />
+                <Field field="contributing_factor_vehicle_4" selected="True" />
+                <Field field="contributing_factor_vehicle_5" selected="True" />
+                <Field field="cross_street_name" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="off_street_name" selected="True" />
+                <Field field="on_street_name" selected="True" />
+                <Field field="vehicle_type_code1" selected="True" />
+                <Field field="vehicle_type_code2" selected="True" />
+                <Field field="vehicle_type_code_3" selected="True" />
+                <Field field="vehicle_type_code_4" selected="True" />
+                <Field field="vehicle_type_code_5" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="borough" size="100000" type="V_WString" />
+                <Field name="contributing_factor_vehicle_1" size="100000" type="V_WString" />
+                <Field name="contributing_factor_vehicle_2" size="100000" type="V_WString" />
+                <Field name="contributing_factor_vehicle_3" size="100000" type="V_WString" />
+                <Field name="contributing_factor_vehicle_4" size="100000" type="V_WString" />
+                <Field name="contributing_factor_vehicle_5" size="100000" type="V_WString" />
+                <Field name="cross_street_name" size="100000" type="V_WString" />
+                <Field name="timestamp" type="DateTime" />
+                <Field name="latitude" type="Double" />
+                <Field name="longitude" type="Double" />
+                <Field name="location" size="100000" type="V_WString" />
+                <Field name="number_of_cyclist_injured" type="Int64" />
+                <Field name="number_of_cyclist_killed" type="Int64" />
+                <Field name="number_of_motorist_injured" type="Int64" />
+                <Field name="number_of_motorist_killed" type="Int64" />
+                <Field name="number_of_pedestrians_injured" type="Int64" />
+                <Field name="number_of_pedestrians_killed" type="Int64" />
+                <Field name="number_of_persons_injured" type="Int64" />
+                <Field name="number_of_persons_killed" type="Int64" />
+                <Field name="off_street_name" size="100000" type="V_WString" />
+                <Field name="on_street_name" size="100000" type="V_WString" />
+                <Field name="unique_key" type="Int64" />
+                <Field name="vehicle_type_code1" size="100000" type="V_WString" />
+                <Field name="vehicle_type_code2" size="100000" type="V_WString" />
+                <Field name="vehicle_type_code_3" size="100000" type="V_WString" />
+                <Field name="vehicle_type_code_4" size="100000" type="V_WString" />
+                <Field name="vehicle_type_code_5" size="100000" type="V_WString" />
+                <Field name="zip_code" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Reports" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Interactive" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Interactive" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Reports" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="16" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="26" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Motor_collision_nyc_final</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3f6b0b38-0872-4883-84b4-120a1ec20385" />
+      <Telemetry>
+        <PreviousWorkflowId value="5a4d22e7-b818-4645-b4b3-0c69c4c5d6c7" />
+        <OriginWorkflowId value="5a4d22e7-b818-4645-b4b3-0c69c4c5d6c7" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
